@@ -1,6 +1,7 @@
 import React, { useState, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, MapPin, Phone, Mail, Facebook, Twitter, Linkedin } from 'lucide-react';
+import logo from './Logo.png';
 
 interface LayoutProps {
   children: ReactNode;
@@ -19,7 +20,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-3">
                 <img 
-                  src="/src/components/Logo.png" 
+                  src={logo}
                   alt="PetroSol Logo" 
                   className="h-10"
                 />
