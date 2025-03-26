@@ -19,7 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-3">
                 <img 
-                  src="/src/components/logo.png" 
+                  src="/src/components/Logo.png" 
                   alt="PetroSol Logo" 
                   className="h-10"
                 />
