@@ -45,12 +45,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   SOLUȚIILE NOASTRE
                 </Link>
                 <div
-                  className="
-                    absolute left-0 w-48 mt-1 bg-white rounded-md shadow-lg
-                    opacity-0 invisible transition-opacity group-hover:opacity-100 group-hover:visible
-                    hover:opacity-100 hover:visible
-                  "
-                >
+                className="
+                  absolute top-full left-0        /* ► începem chiar sub link */
+                  w-48 bg-white rounded-md shadow-lg
+                  opacity-0 invisible
+                  transition-opacity duration-200 /* ► tranziție mai fluentă */
+                  group-hover:opacity-100 group-hover:visible
+                "
+              >
                   <Link
                     to="/solutions/service-stations"
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
