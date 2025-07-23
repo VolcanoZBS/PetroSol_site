@@ -1,35 +1,35 @@
-import React from 'react';
-
 const ContactUsSection = () => {
   return (
     <section className="mb-16">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-700 text-center mb-12">
-          Contact us for additional information or a demo!
+        <h2 className="text-3xl font-bold text-gray-700 text-center mb-12 mt-12">
+          Contactează-ne pentru informații suplimentare sau o demonstrație!
         </h2>
         
-        {/* Send a Message or Call */}
+        {/* Trimite un mesaj sau sună */}
         <div className="text-center mb-12">
-          <h3 className="text-2xl text-gray-700 mb-4">Send a Message or Call</h3>
+          <h3 className="text-2xl text-gray-700 mb-4">
+            Trimite un mesaj sau sună
+          </h3>
           <a 
-            href="tel:1-833-363-7359" 
+            href="tel:+40 123 456 789" 
             className="text-xl text-blue-600 hover:text-blue-800 transition-colors"
           >
-            1-833-363-7359
+            +40 123 456 789
           </a>
         </div>
 
-        {/* Contact Form */}
+        {/* Formular de contact */}
         <form className="max-w-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <input
               type="text"
-              placeholder="Name"
+              placeholder="Nume"
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
             />
             <input
               type="text"
-              placeholder="Company"
+              placeholder="Companie"
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
             />
           </div>
@@ -37,7 +37,7 @@ const ContactUsSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <input
               type="tel"
-              placeholder="Phone Number"
+              placeholder="Telefon"
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
             />
             <input
@@ -49,12 +49,12 @@ const ContactUsSection = () => {
 
           <input
             type="text"
-            placeholder="Subject (optional)"
+            placeholder="Subiect (opțional)"
             className="w-full px-4 py-2 border border-gray-300 rounded-md mb-6 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
           />
 
           <textarea
-            placeholder="Message"
+            placeholder="Mesaj"
             rows={6}
             className="w-full px-4 py-2 border border-gray-300 rounded-md mb-6 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
           ></textarea>
@@ -64,7 +64,7 @@ const ContactUsSection = () => {
               type="submit"
               className="bg-emerald-500 text-white px-8 py-3 rounded-md hover:bg-emerald-600 transition-colors font-medium"
             >
-              Send Message
+              Trimite mesaj
             </button>
           </div>
         </form>
@@ -73,4 +73,4 @@ const ContactUsSection = () => {
   );
 };
 
-export default ContactUsSection; 
+export default ContactUsSection;
