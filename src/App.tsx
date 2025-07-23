@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
-import Solutions from "./pages/solutions"; // va rezolva automat index.tsx
 import SolutionsLayout from "./pages/solutions/SolutionsLayout";
+import SolutionsIndex from "./pages/solutions";
 import ServiceStations from "./pages/solutions/ServiceStations";
 import Unattended from "./pages/solutions/Unattended";
 import IndustrialCRT from "./pages/solutions/IndustrialCRT";
@@ -32,14 +32,14 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+
           <Route path="/solutions" element={<SolutionsLayout />}>
-            {/* /solutions */}
-            <Route index element={<Solutions />} />
-            {/* /solutions/:path */}
-            {solutionRoutes.map(({ path, element }) => (
-              <Route key={path} path={path} element={element} />
+            <Route index element={<SolutionsIndex />} />
+            {solutionRoutes.map((r) => (
+              <Route key={r.path} path={r.path} element={r.element} />
             ))}
           </Route>
+
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
