@@ -1,6 +1,6 @@
 // src/pages/solutions/TraditionalRetail.tsx
 import React from 'react';
-import traditionalRetailImg from "/images/traditional-retail.jpg";
+import traditionalRetailImg from "/images/traditional-retail.webp";
 
 const TraditionalRetail: React.FC = () => (
   <div className="max-w-4xl mx-auto py-12 px-4">

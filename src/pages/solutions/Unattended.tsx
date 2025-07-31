@@ -1,6 +1,6 @@
 // src/pages/solutions/Unattended.tsx
 import React from 'react';
-import unattendedImg from "/images/unattended.jpg"
+import unattendedImg from "/images/unattended.webp"
 
 const Unattended: React.FC = () => (
   <div className="max-w-4xl mx-auto py-12 px-4">

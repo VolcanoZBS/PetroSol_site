@@ -1,6 +1,6 @@
 // src/pages/solutions/Payment.tsx
 import React from 'react';
-import paymentImg from "/images/payment.jpg"
+import paymentImg from "/images/payment.webp"
 
 const Payment: React.FC = () => (
   <div className="max-w-4xl mx-auto py-12 px-4">
