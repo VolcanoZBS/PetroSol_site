@@ -1,23 +1,23 @@
 import React, { useEffect, useRef } from 'react';
 
-// Importă logo-urile partenerilor
+// Importă logo-urile companiilor care folosesc software-ul nostru
 import BentoLogo from '../assets/images/partners/Bento_logo.svg';
 import ForteLogo from '../assets/images/partners/Forte_logo.png';
 import OscarLogo from '../assets/images/partners/Oscar_Downstream_logo.svg.png';
 import RompetrolLogo from '../assets/images/partners/Rompetrol_logo.png';
 import OctanoLogo from '../assets/images/partners/Octano_logo.png'
 
-const partners = [
+const customers = [ // Am redenumit din 'partners' în 'customers'
   { name: 'Bento', logo: BentoLogo },
   { name: 'Forte', logo: ForteLogo },
   { name: 'Oscar Downstream', logo: OscarLogo },
   { name: 'Rompetrol', logo: RompetrolLogo },
   // Am dublat pentru a umple mai mult spațiu și a asigura fluiditatea
   { name: 'Octano', logo: OctanoLogo }, 
-  //{ name: 'Forte', logo: ForteLogo },
+  //{ name: 'Forte', logo: ForteLogo }, // Păstrăm comentariul original
 ];
 
-const Partners: React.FC = () => {
+const OurCustomers: React.FC = () => { // Am redenumit componenta din 'Partners' în 'OurCustomers'
   const scrollerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,27 +42,26 @@ const Partners: React.FC = () => {
   }, []);
 
   return (
-    <section id="partners" className="py-20 bg-white">
+    <section id="our-customers" className="py-20 bg-white"> {/* Am actualizat id-ul secțiunii */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-            Parteneri <span className="text-blue-600">de Încredere</span>
+            Clienții <span className="text-blue-600">Noștri</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Colaborăm cu parteneri tehnologici de top din industrie pentru a oferi 
-            cele mai bune soluții clienților noștri.
+            Suntem mândri să sprijinim un portofoliu divers de companii de top, ajutându-le să își optimizeze operațiunile și să atingă succesul prin soluțiile și software-ul nostru inovator.
           </p>
         </div>
 
         <div className="scroller" ref={scrollerRef}>
           <div className="scroller__inner">
-            {partners.map((partner, index) => (
+            {customers.map((customer, index) => (
               <div key={index} className="flex items-center justify-center">
                 <img
-                  src={partner.logo}
-                  alt={partner.name}
-                  className="h-12 object-contain"
-                  style={{ maxWidth: '140px' }}
+                  src={customer.logo}
+                  alt={customer.name}
+                  className={`object-contain ${customer.name === 'Rompetrol' ? 'h-16' : 'h-12'}`}
+                  style={{ maxWidth: customer.name === 'Rompetrol' ? '160px' : '140px' }}
                 />
               </div>
             ))}
@@ -72,17 +71,16 @@ const Partners: React.FC = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Sunteți pregătit pentru un parteneriat?
+              Ești pregătit să te alături companiilor de succes care folosesc soluțiile noastre?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Alăturați-vă rețelei noastre de clienți de succes și parteneri tehnologici. 
-              Haideți să construim ceva extraordinar împreună.
+              Descoperă cum software-ul nostru poate transforma și eficientiza operațiunile afacerii tale. Suntem aici să te ajutăm să crești.
             </p>
             <button
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300"
             >
-              Inițiază un Parteneriat
+              Contactează-ne pentru o soluție
             </button>
           </div>
         </div>
@@ -118,4 +116,4 @@ const Partners: React.FC = () => {
   );
 };
 
-export default Partners;
+export default OurCustomers;

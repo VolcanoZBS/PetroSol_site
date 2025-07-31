@@ -1,6 +1,6 @@
 // src/pages/solutions/IndustrialCRT.tsx
 import React from 'react';
-import industrialCrtImg from "/images/industrial-crt.jpg"
+import industrialCrtImg from "/images/industrial-crt.webp"
 
 const IndustrialCRT: React.FC = () => (
   <div className="max-w-4xl mx-auto py-12 px-4">

@@ -1,4 +1,6 @@
-import { Facebook, Twitter, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
+import { Facebook, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
+import { SiGoogle } from "react-icons/si";
+import logo from '../assets/images/logo.png'; // importă logo-ul
 
 export default function Footer() {
   return (
@@ -7,7 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Bloc PetroSol */}
           <div>
-            <h3 className="text-xl font-bold mb-4">PetroSol</h3>
+            <div className="flex items-center mb-4">
+              <img src={logo} alt="PetroSol Logo" className="h-8 w-auto mr-2" />
+              <h3 className="text-xl font-bold">PetroSol</h3>
+            </div>
             <p className="text-gray-300 mb-4">
               Soluții IT complete pentru industria petrolieră și nu numai.
             </p>
@@ -15,18 +20,21 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/Petrol.Solutions/"
                 className="text-gray-300 hover:text-white transition-colors"
+                target="_blank" rel="noopener noreferrer"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://share.google/gCArcW0EpSU6NoJRN"
                 className="text-gray-300 hover:text-white transition-colors"
+                target="_blank" rel="noopener noreferrer"
               >
-                <Twitter className="w-5 h-5" />
+                <SiGoogle className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/petrol-solutions/?originalSubdomain=ro"
                 className="text-gray-300 hover:text-white transition-colors"
+                target="_blank" rel="noopener noreferrer"
               >
                 <Linkedin className="w-5 h-5" />
               </a>

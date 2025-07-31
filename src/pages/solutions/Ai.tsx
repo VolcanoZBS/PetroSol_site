@@ -1,6 +1,6 @@
 // src/pages/solutions/Ai.tsx
 import React from 'react';
-import aiImg from "/images/ai.jpg"
+import aiImg from "/images/ai.webp"
 
 const Ai: React.FC = () => (
   <div className="max-w-4xl mx-auto py-12 px-4">

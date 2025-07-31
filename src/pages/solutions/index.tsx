@@ -1,48 +1,48 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Listă de soluții cu datele pentru card
+// Listă de soluții cu imagini .webp optimizate
 const solutionList = [
   {
     name: "Service Stations",
     path: "service-stations",
-    imageUrl: "/images/service-station.jpg",
+    imageUrl: "/images/service-station.webp",
     description: "Optimizăm funcționarea stațiilor de alimentare cu soluții integrate și suport 24/7.",
   },
   {
     name: "Unattended",
     path: "unattended",
-    imageUrl: "/images/unattended.jpg",
+    imageUrl: "/images/unattended.webp",
     description: "Sisteme de autoservire eficiente și ușor de integrat pentru diverse industrii.",
   },
   {
     name: "Industrial CRT",
     path: "industrial-crt",
-    imageUrl: "/images/industrial-crt.jpg",
+    imageUrl: "/images/industrial-crt.webp",
     description: "Tehnologie CRT robustă pentru medii industriale solicitante.",
   },
   {
     name: "Traditional Retail",
     path: "traditional-retail",
-    imageUrl: "/images/traditional-retail.jpg",
+    imageUrl: "/images/traditional-retail.webp",
     description: "Soluții pentru puncte de vânzare tradiționale, cu interfațe familiare și rapide.",
   },
   {
     name: "Payment",
     path: "payment",
-    imageUrl: "/images/payment.jpg",
+    imageUrl: "/images/payment.webp",
     description: "Platforme de plată securizate, compatibile cu multiple metode de tranzacție.",
   },
   {
     name: "Custom Solutions",
     path: "custom-solutions",
-    imageUrl: "/images/custom-solutions.jpg",
+    imageUrl: "/images/custom-solutions.webp",
     description: "Dezvoltăm aplicații personalizate adaptate nevoilor specifice ale afacerii tale.",
   },
   {
     name: "AI",
     path: "ai",
-    imageUrl: "/images/ai.jpg",
+    imageUrl: "/images/ai.webp",
     description: "Integrare AI pentru analiză avansată și automatizare inteligentă.",
   },
 ];
@@ -58,6 +58,7 @@ const SolutionsIndex: React.FC = () => (
           src={sol.imageUrl}
           alt={sol.name}
           className="h-48 w-full object-cover"
+          loading="lazy"
         />
         <div className="p-4 flex-1 flex flex-col">
           <h2 className="text-xl font-semibold mb-2">{sol.name}</h2>

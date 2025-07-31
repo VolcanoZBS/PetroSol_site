@@ -1,6 +1,6 @@
 // src/pages/solutions/ServiceStations.tsx
 import React from 'react';
-import serviceStationImg from "/images/service-station.jpg"
+import serviceStationImg from "/images/service-station.webp"
 
 const ServiceStations: React.FC = () => (
   <div className="max-w-4xl mx-auto py-12 px-4">

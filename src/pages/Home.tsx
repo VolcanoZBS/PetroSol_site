@@ -1,7 +1,7 @@
 import OptimizationSection from "../components/OptimizationSection";
 import Hero from "../components/Hero";
 import ContactUsSection from "../components/ContactUsSection";
-import Partners from "../components/Partners"; // adaugă acest import
+import OurCustomers from "../components/OurCustomers"; // adaugă acest import
 
 const Home = () => {
   return (
@@ -103,7 +103,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <Partners />
+        <OurCustomers />
         <OptimizationSection />
 
         {/* Contact Us Section */}
