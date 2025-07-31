@@ -52,7 +52,7 @@ const SolutionsIndex: React.FC = () => (
     {solutionList.map((sol) => (
       <div
         key={sol.path}
-        className="bg-white rounded-lg shadow overflow-hidden flex flex-col"
+        className="group bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform transition duration-300 ease-in-out hover:shadow-xl hover:scale-105"
       >
         <img
           src={sol.imageUrl}
@@ -61,8 +61,8 @@ const SolutionsIndex: React.FC = () => (
           loading="lazy"
         />
         <div className="p-4 flex-1 flex flex-col">
-          <h2 className="text-xl font-semibold mb-2">{sol.name}</h2>
-          <p className="text-gray-600 flex-1">{sol.description}</p>
+          <h2 className="text-xl font-semibold mb-2 text-gray-800">{sol.name}</h2>
+          <p className="text-gray-600 flex-1 leading-relaxed">{sol.description}</p>
           <Link
             to={sol.path}
             className="mt-4 inline-block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
