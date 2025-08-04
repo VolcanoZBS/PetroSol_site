@@ -50,9 +50,10 @@ const solutionList = [
 const SolutionsIndex: React.FC = () => (
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {solutionList.map((sol) => (
-      <div
+      <Link
         key={sol.path}
-        className="group bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform transition duration-300 ease-in-out hover:shadow-xl hover:scale-105"
+        to={sol.path}
+        className="group bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform transition duration-300 ease-in-out hover:shadow-xl hover:scale-105 no-underline"
       >
         <img
           src={sol.imageUrl}
@@ -63,14 +64,11 @@ const SolutionsIndex: React.FC = () => (
         <div className="p-4 flex-1 flex flex-col">
           <h2 className="text-xl font-semibold mb-2 text-gray-800">{sol.name}</h2>
           <p className="text-gray-600 flex-1 leading-relaxed">{sol.description}</p>
-          <Link
-            to={sol.path}
-            className="mt-4 inline-block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-          >
+          <span className="mt-4 inline-block text-center border border-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-100 transition self-start">
             Vezi detalii
-          </Link>
+          </span>
         </div>
-      </div>
+      </Link>
     ))}
   </div>
 );

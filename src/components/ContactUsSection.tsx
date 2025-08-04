@@ -12,10 +12,10 @@ const ContactUsSection = () => {
             Trimite un mesaj sau sună
           </h3>
           <a 
-            href="tel:+40 123 456 789" 
+            href="tel:+40 738 100 70" 
             className="text-xl text-blue-600 hover:text-blue-800 transition-colors"
           >
-            +40 123 456 789
+            +40 738 100 070
           </a>
         </div>
 

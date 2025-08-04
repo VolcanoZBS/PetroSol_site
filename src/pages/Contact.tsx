@@ -14,7 +14,7 @@ const Contact = () => {
             </li>
             <li>
               <strong>Telefon:</strong><br />
-              <a href="tel:+40211234567" className="text-blue-600 hover:underline">+40 758100070</a>
+              <a href="tel:+40 738 100 070" className="text-blue-600 hover:underline">+40 738 100 070</a>
             </li>
             <li>
               <strong>Email:</strong><br />
@@ -31,7 +31,7 @@ const Contact = () => {
         <div className="w-full md:w-1/2 h-64 md:h-auto rounded-lg overflow-hidden border border-gray-200 shadow-md">
           <iframe
             title="PetroSol București"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2706.350156693127!2d26.089681576048086!3d44.46948557107517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b20258ac275fb9%3A0xad29b7dc896685d2!2sPetrol%20Solutions%20-%20PetroSol!5e1!3m2!1sro!2sro!4v1753951893165!5m2!1sro!2sro&t=m"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.228658000439!2d26.089681576048086!3d44.46948557107517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b20258ac275fb9%3A0xad29b7dc896685d2!2sPetrol%20Solutions%20-%20PetroSol!5e0!3m2!1sro!2sro!4v1754040794988!5m2!1sro!2sro"
             width="100%"
             height="100%"
             frameBorder="0"

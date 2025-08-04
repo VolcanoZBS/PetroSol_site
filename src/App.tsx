@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout";
@@ -15,6 +14,7 @@ import TraditionalRetail from "./pages/solutions/TraditionalRetail";
 import Payment from "./pages/solutions/Payment";
 import CustomSolutions from "./pages/solutions/CustomSolutions";
 import Ai from "./pages/solutions/Ai";
+import ScrollToTop from "./components/ScrollToTop";
 
 const solutionRoutes = [
   { path: "service-stations", element: <ServiceStations /> },
@@ -30,6 +30,7 @@ function App() {
   return (
     <Router>
       <Layout>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
 
