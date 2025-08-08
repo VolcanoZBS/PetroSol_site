@@ -2,11 +2,13 @@ import OptimizationSection from "../components/OptimizationSection";
 import Hero from "../components/Hero";
 import ContactUsSection from "../components/ContactUsSection";
 import OurCustomers from "../components/OurCustomers"; // adaugă acest import
+import WebBasedSolution from "../components/WebBasedSolution";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <WebBasedSolution />
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
         <section className="mb-16">
