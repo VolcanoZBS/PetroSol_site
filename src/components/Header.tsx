@@ -28,7 +28,16 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-3">
+        <Link
+          to="/"
+          onClick={(e) => {
+            if (location.pathname === "/") {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          }}
+          className="flex items-center space-x-3"
+        >
           <img src={logo} alt="PetroSol Logo" className="h-10" />
           <h1 className="text-2xl font-bold text-gray-800">PetroSol</h1>
         </Link>

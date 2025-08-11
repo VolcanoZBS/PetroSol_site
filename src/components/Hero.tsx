@@ -56,7 +56,8 @@ const Hero: React.FC = () => {
             alt={slide.title}
             className="absolute inset-0 w-full h-full object-cover"
             loading={index === 0 ? "eager" : "lazy"}
-            fetchpriority={index === 0 ? "high" : "low"} // Fixed: lowercase
+            decoding="async"
+            {...({ ['fetchpriority']: index === 0 ? 'high' : 'low' } as any)}
           />
           <div className={`absolute inset-0 bg-gradient-to-r ${slide.color} opacity-70`}></div>
           <div className="absolute inset-0 flex items-center justify-center">
