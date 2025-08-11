@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { useLocation, NavLink } from "react-router-dom";
-import { Home, Info, Users, MessageCircle, Wrench, Phone } from "lucide-react";
+import { Home, Info, MessageCircle, Wrench, Phone } from "lucide-react";
 
 // Define your routes here (adjust as needed)
 const routes = [

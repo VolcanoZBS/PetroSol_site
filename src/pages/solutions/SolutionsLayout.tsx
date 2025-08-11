@@ -25,12 +25,13 @@ const SolutionsLayout: React.FC = () => {
   const currentName = currentSlug ? solutionNames[currentSlug] : null;
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8 px-4 sm:px-0">
       {/* Titlu dinamic cu link pentru Soluțiile noastre */}
       <h1 className="text-2xl font-medium mb-4 flex items-center space-x-2">
         <Link
           to="/solutions"
-          className="hover:underline text-gray-800"
+          className="text-gray-800 hover:text-blue-700 transition-colors no-underline focus:text-gray-800 active:text-gray-800 visited:text-gray-800"
+          style={{ textDecoration: "none" }}
         >
           Soluțiile noastre
         </Link>

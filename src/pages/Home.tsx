@@ -1,8 +1,14 @@
+import React, { Suspense, lazy } from "react";
 import OptimizationSection from "../components/OptimizationSection";
 import Hero from "../components/Hero";
 import ContactUsSection from "../components/ContactUsSection";
-import OurCustomers from "../components/OurCustomers"; // adaugă acest import
+import OurCustomers from "../components/OurCustomers";
 import WebBasedSolution from "../components/WebBasedSolution";
+import ValueProposition from "../components/ValueProposition";
+import isoImage from "../assets/images/iso_2015.webp"; // Add this import
+import iso27001Image from "../assets/images/iso_27001.webp"; // Add this import at the top
+
+const ContactUsSectionLazy = lazy(() => import("../components/ContactUsSection"));
 
 const Home = () => {
   return (
@@ -11,7 +17,7 @@ const Home = () => {
       <WebBasedSolution />
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
-        <section className="mb-16">
+        {/* <section className="mb-16">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
               Transformăm afacerea dumneavoastră
@@ -32,7 +38,8 @@ const Home = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
+        <ValueProposition />
 
         <section className="mb-16">
           <div className="max-w-5xl mx-auto">
@@ -89,27 +96,63 @@ const Home = () => {
         </section>
 
         <section className="mb-16">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6"></h2>
-            <div className="flex justify-center items-center">
-              <img
-                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="Certificări"
-                className="rounded-lg shadow-lg max-w-full h-auto"
-              />
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+              Certificări și Standarde de Calitate
+            </h2>
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                {/* Images Section */}
+                <div className="w-full md:w-1/2 flex flex-row gap-6 justify-center">
+                  <img
+                    src={isoImage}
+                    alt="Certificare ISO 9001:2015"
+                    className="w-32 h-32 object-fill"
+                    style={{ width: '128px', height: '128px' }}
+                  />
+                  <img
+                    src={iso27001Image}
+                    alt="Certificare ISO 27001"
+                    className="w-32 h-32 object-fill"
+                    style={{ width: '128px', height: '128px' }}
+                  />
+                </div>
+
+                {/* Text Section */}
+                <div className="w-full md:w-1/2 space-y-4">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Calitate Certificată
+                  </h3>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
+                      <span className="text-lg font-semibold text-gray-700">
+                        ISO 9001:2015
+                      </span>
+                      <span className="text-gray-600">- Managementul Calității</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-3 h-3 bg-green-600 rounded-full"></div>
+                      <span className="text-lg font-semibold text-gray-700">
+                        ISO/IEC 27001:2013
+                      </span>
+                      <span className="text-gray-600">- Securitatea Informației</span>
+                    </div>
+                  </div>
+                  <p className="text-gray-600 mt-4 leading-relaxed">
+                    Certificările noastre demonstrează angajamentul față de excelența în servicii,
+                    securitatea datelor și îmbunătățirea continuă a proceselor.
+                  </p>
+                </div>
+              </div>
             </div>
-            <p className="text-lg text-gray-600 mt-6">
-              CERTIFIED MANAGEMENT SYSTEM
-              <br />
-              ISO 9001 - ISO/IEC 27001
-            </p>
           </div>
         </section>
         <OurCustomers />
         <OptimizationSection />
-
-        {/* Contact Us Section */}
-        <ContactUsSection />
+        <Suspense fallback={null}>
+          <ContactUsSectionLazy />
+        </Suspense>
       </main>
     </>
   );

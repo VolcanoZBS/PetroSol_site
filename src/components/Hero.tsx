@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight } from 'lucide-react';
 
-import stationImg from '../assets/images/Station_hero_image.avif';
-import retailImg from '../assets/images/Programming_hero_image.avif';
-import carbImg from '../assets/images/Terminal_hero_image.avif';
+import stationImg from '../assets/images/Station_hero_image.webp';
+import retailImg from '../assets/images/Programming_hero_image.webp';
+import carbImg from '../assets/images/Terminal_hero_image.webp';
 
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -29,6 +29,7 @@ const Hero: React.FC = () => {
     }
   ];
 
+  // Remove image preloading completely for initial render
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -49,38 +50,26 @@ const Hero: React.FC = () => {
           className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
             index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
-          style={{
-            backgroundImage: slide.image ? `url(${slide.image})` : undefined,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }}
         >
+          <img
+            src={slide.image}
+            alt={slide.title}
+            className="absolute inset-0 w-full h-full object-cover"
+            loading={index === 0 ? "eager" : "lazy"}
+            fetchpriority={index === 0 ? "high" : "low"} // Fixed: lowercase
+          />
           <div className={`absolute inset-0 bg-gradient-to-r ${slide.color} opacity-70`}></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="container mx-auto px-4 text-white text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 transform transition-transform duration-700 ease-out translate-y-0 opacity-100"
-                  style={{
-                    transform: index === currentSlide ? 'translateY(0)' : 'translateY(20px)',
-                    opacity: index === currentSlide ? 1 : 0,
-                    transition: 'transform 0.7s ease-out, opacity 0.7s ease-out'
-                  }}>
+              {/* Remove conditional animations - just render static content */}
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 {slide.title}
               </h1>
-              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto transform transition-transform duration-700 delay-200 ease-out"
-                 style={{
-                   transform: index === currentSlide ? 'translateY(0)' : 'translateY(20px)',
-                   opacity: index === currentSlide ? 1 : 0,
-                   transition: 'transform 0.7s ease-out 0.2s, opacity 0.7s ease-out 0.2s'
-                 }}>
+              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
                 {slide.description}
               </p>
               <button
-                className="bg-white text-gray-800 hover:bg-gray-100 px-6 py-3 rounded-full font-medium flex items-center mx-auto transform transition-transform duration-300 ease-out hover:scale-15"
-                style={{
-                  transform: index === currentSlide ? 'translateY(0)' : 'translateY(20px)',
-                  opacity: index === currentSlide ? 1 : 0,
-                  transition: 'transform 0.7s ease-out 0.4s, opacity 0.7s ease-out 0.4s'
-                }}
+                className="bg-white text-gray-800 hover:bg-gray-100 px-6 py-3 rounded-full font-medium flex items-center mx-auto transform transition-transform duration-300 ease-out hover:scale-105"
                 onClick={() => window.location.href = '/solutions'}
               >
                 Descoperă Soluțiile Noastre
@@ -101,7 +90,7 @@ const Hero: React.FC = () => {
               index === currentSlide ? 'bg-white w-8' : 'bg-white/50'
             }`}
             aria-label={`Go to slide ${index + 1}`}
-          ></button>
+          />
         ))}
       </div>
     </div>
