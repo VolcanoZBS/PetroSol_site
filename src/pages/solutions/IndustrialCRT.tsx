@@ -62,11 +62,17 @@ const IndustrialCRT: React.FC = () => (
           </p>
 
           <a
-            href="/#contact"
+            href="/contact"
             className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 text-white px-5 py-3 font-medium hover:bg-indigo-700 transition"
           >
             Discută cu un consultant
             <ArrowRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-white text-indigo-700 px-5 py-3 font-medium ring-1 ring-indigo-200 hover:bg-indigo-50 transition"
+          >
+            Sună acum
           </a>
         </div>
 
@@ -214,11 +220,17 @@ const IndustrialCRT: React.FC = () => (
           </p>
         </div>
         <a
-          href="/#contact"
+          href="/contact"
           className="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 text-white px-5 py-3 font-medium hover:bg-indigo-700 transition"
         >
           Contactează-ne
           <ArrowRight className="w-4 h-4" />
+        </a>
+        <a
+          href="tel:+40738100070"
+          className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-indigo-700 px-5 py-3 font-medium ring-1 ring-indigo-200 hover:bg-indigo-50 transition"
+        >
+          Sună acum
         </a>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useNavigate } from "react-router-dom";
 
 // Importă logo-urile companiilor care folosesc software-ul nostru
 import BentoLogo from '../assets/images/partners/Bento_logo.svg';
@@ -19,6 +20,7 @@ const customers = [ // Am redenumit din 'partners' în 'customers'
 
 const OurCustomers: React.FC = () => { // Am redenumit componenta din 'Partners' în 'OurCustomers'
   const scrollerRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -68,20 +70,49 @@ const OurCustomers: React.FC = () => { // Am redenumit componenta din 'Partners'
           </div>
         </div>
 
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Ești pregătit să te alături companiilor de succes care folosesc soluțiile noastre?
-            </h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Descoperă cum software-ul nostru poate transforma și eficientiza operațiunile afacerii tale. Suntem aici să te ajutăm să crești.
-            </p>
-            <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300"
-            >
-              Contactează-ne pentru o soluție
-            </button>
+        <div className="mt-20">
+          <div className="relative overflow-hidden rounded-2xl ring-1 ring-gray-200 bg-white">
+            <div className="absolute inset-0 pointer-events-none [mask-image:radial-gradient(circle_at_center,white,transparent)] bg-[linear-gradient(110deg,#dbeafe_0%,#ccfbf1_50%,#ffffff_100%)] opacity-70" />
+            <div className="relative p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div className="max-w-xl">
+                <div className="inline-flex items-center gap-2 rounded-full bg-blue-50 text-blue-700 px-3 py-1 text-xs font-medium ring-1 ring-blue-100">
+                  Încredere & scalare
+                </div>
+                <h3 className="mt-3 text-xl md:text-2xl font-semibold text-gray-900">
+                  Alătură-te companiilor care și-au optimizat operațiunile cu PetroSol
+                </h3>
+                <p className="mt-2 text-gray-600 leading-relaxed">
+                  Vorbește cu noi și află rapid dacă soluțiile noastre se potrivesc fluxurilor tale.
+                </p>
+                <dl className="mt-4 grid grid-cols-3 gap-4 text-sm">
+                  <div>
+                    <dt className="text-gray-500">Stații</dt>
+                    <dd className="font-semibold text-gray-900">800+</dd>
+                  </div>
+                  <div>
+                    <dt className="text-gray-500">Integrări</dt>
+                    <dd className="font-semibold text-gray-900">100+</dd>
+                  </div>
+                  <div>
+                    <dt className="text-gray-500">Suport</dt>
+                    <dd className="font-semibold text-gray-900">24/7</dd>
+                  </div>
+                </dl>
+              </div>
+              <div className="flex flex-col items-start md:items-end gap-4">
+                <button
+                  type="button"
+                  onClick={() => navigate('/contact')}
+                  className="group inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                >
+                  Contactează-ne
+                  <span className="transition-transform group-hover:translate-x-0.5">→</span>
+                </button>
+                <p className="text-xs text-gray-500">
+                  Răspundem în <span className="font-medium text-gray-700">sub 1 zi lucrătoare</span>.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

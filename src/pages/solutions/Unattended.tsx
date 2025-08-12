@@ -62,11 +62,16 @@ const Unattended: React.FC = () => (
             pentru control, audit și scalare.
           </p>
           <a
-            href="/#contact"
-            className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 text-white px-5 py-3 font-medium hover:bg-blue-700 transition"
+            href="/contact"
+            className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
           >
-            Programează un demo
-            <ArrowRight className="w-4 h-4" />
+            Programează un demo →
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white text-blue-700 font-medium ring-1 ring-blue-200 hover:bg-blue-50 transition"
+          >
+            Sună acum
           </a>
         </div>
 
@@ -214,11 +219,16 @@ const Unattended: React.FC = () => (
           </p>
         </div>
         <a
-          href="/#contact"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 text-white px-5 py-3 font-medium hover:bg-blue-700 transition"
+          href="/contact"
+          className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
         >
-          Programează un demo
-          <ArrowRight className="w-4 h-4" />
+          Programează un demo →
+        </a>
+        <a
+          href="tel:+40738100070"
+          className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white text-blue-700 font-medium ring-1 ring-blue-200 hover:bg-blue-50 transition"
+        >
+          Sună acum
         </a>
       </div>
     </section>
