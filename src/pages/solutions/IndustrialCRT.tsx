@@ -53,12 +53,12 @@ const IndustrialCRT: React.FC = () => (
             Soluție PetroSol
           </div>
           <h1 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900">
-            Distribuție En‑Gros & Industrial (CRT)
+            Distribuție En-Gros & Industrial (CRT)
           </h1>
           <p className="mt-3 text-gray-700 leading-relaxed">
-            Gestionăm cap‑coadă livrările de carburanți pentru clienți industriali: contracte și liste
+            Gestionăm cap-coadă livrările de carburanți pentru clienți industriali: contracte și liste
             de preț, limite de credit, planificare rute, telemetrie cisterne, confirmare livrare și
-            facturare automată – integrate cu ERP și e‑Factura.
+            facturare automată - integrate cu ERP și e-Factura.
           </p>
 
           <a
@@ -94,8 +94,8 @@ const IndustrialCRT: React.FC = () => (
     <section className="mb-12">
       <SectionTitle
         eyebrow="Capabilități"
-        title="Ce include soluția PetroSol pentru en‑gros și industrial"
-        subtitle="Automatizare operațională, trasabilitate și control financiar – de la contract până la încasare."
+        title="Ce include soluția PetroSol pentru en-gros și industrial"
+        subtitle="Automatizare operațională, trasabilitate și control financiar - de la contract până la încasare."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Feature
@@ -111,7 +111,7 @@ const IndustrialCRT: React.FC = () => (
         <Feature
           icon={<MapPin className="w-5 h-5" />}
           title="Rute & execuție"
-          desc="Navigație, check‑in geo, timpi, dovezi foto și semnătură/OTP pentru predare (POD)."
+          desc="Navigație, check-in geo, timpi, dovezi foto și semnătură/OTP pentru predare (POD)."
         />
         <Feature
           icon={<Boxes className="w-5 h-5" />}
@@ -120,7 +120,7 @@ const IndustrialCRT: React.FC = () => (
         />
         <Feature
           icon={<DollarSign className="w-5 h-5" />}
-          title="Facturare & e‑Factura"
+          title="Facturare & e-Factura"
           desc="Calcul automat pe contract, accize/taxe, generare facturi și trimitere ANAF."
         />
         <Feature
@@ -140,7 +140,7 @@ const IndustrialCRT: React.FC = () => (
           "Primești comanda clientului și planifici traseul și slotul de încărcare.",
           "Se încarcă cisterna; datele de cantitate/temperatură se preiau automat.",
           "Livrarea se execută; se colectează POD (semnătură/OTP/foto) și coordonate.",
-          "Se reconciliază cantitățile și se emite factura; datele merg în ERP și e‑Factura.",
+          "Se reconciliază cantitățile și se emite factura; datele merg în ERP și e-Factura.",
         ].map((step, i) => (
           <li key={step} className="relative">
             <span className="absolute -left-7 top-0 inline-flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-white text-xs font-semibold">
@@ -163,8 +163,8 @@ const IndustrialCRT: React.FC = () => (
               "Debimetre/contori certificați și sonde ATG în rezervor",
               "GPS/telematică pentru flote și senzori de siguranță",
               "Terminal mobil șofer cu aplicație POD (foto/semnătură/OTP)",
-              "Imprimantă mobilă (bon/CMR) – opțional",
-              "Coduri de bare/RFID la punctele de descărcare – opțional",
+              "Imprimantă mobilă (bon/CMR) - opțional",
+              "Coduri de bare/RFID la punctele de descărcare - opțional",
             ].map((t) => (
               <li key={t} className="flex items-start gap-2">
                 <ClipboardCheck className="w-4 h-4 text-emerald-600 mt-0.5" />
@@ -180,7 +180,7 @@ const IndustrialCRT: React.FC = () => (
               "Contracte, liste de preț și politici de taxare",
               "Comenzi, dispecerizare și optimizare trasee",
               "POD digital, foto și documente atașate livrării",
-              "Facturare automată și e‑Factura (ANAF)",
+              "Facturare automată și e-Factura (ANAF)",
               "Integrare ERP/contabilitate și portal clienți",
             ].map((t) => (
               <li key={t} className="flex items-start gap-2">
@@ -213,7 +213,7 @@ const IndustrialCRT: React.FC = () => (
       <div className="bg-gradient-to-br from-indigo-50 to-white ring-1 ring-indigo-100 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <h3 className="text-lg font-semibold text-gray-900">
-            Ești gata să digitalizezi distribuția en‑gros?
+            Ești gata să digitalizezi distribuția en-gros?
           </h3>
           <p className="text-gray-700">
             Îți arătăm cum automatizăm contractele, rutele și facturarea.

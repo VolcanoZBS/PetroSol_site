@@ -9,7 +9,6 @@ import {
   Shield,
   Gauge,
   CheckCircle2,
-  ArrowRight,
 } from "lucide-react";
 import unattendedImg from "/images/unattended.webp";
 

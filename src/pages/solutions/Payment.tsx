@@ -3,7 +3,6 @@ import React from "react";
 import {
   CreditCard,
   Wallet,
-  Smartphone,
   Lock,
   Shield,
   Receipt,
@@ -94,7 +93,7 @@ const Payment: React.FC = () => (
       <SectionTitle
         eyebrow="Capabilități"
         title="Ce oferă platforma de plăți"
-        subtitle="Unificare metode, flux sigur, vizibilitate financiară end‑to‑end."
+        subtitle="Unificare metode, flux sigur, vizibilitate financiară end-to-end."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Feature
@@ -202,7 +201,7 @@ const Payment: React.FC = () => (
           <div>
             <h4 className="font-semibold text-gray-900">PCI & criptare</h4>
             <p className="text-sm text-gray-600 mt-1">
-              Criptare end‑to‑end și proceduri PCI DSS aliniate.
+              Criptare end-to-end și proceduri PCI DSS aliniate.
             </p>
           </div>
         </div>

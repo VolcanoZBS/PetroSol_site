@@ -1,4 +1,3 @@
-// src/pages/solutions/CustomSolutions.tsx
 import React from "react";
 import {
   Code,
@@ -196,7 +195,7 @@ const CustomSolutions: React.FC = () => {
           <div className="bg-white rounded-xl ring-1 ring-gray-200 p-5 flex gap-3">
             <Rocket className="w-5 h-5 text-sky-600 mt-0.5" />
             <div>
-              <h4 className="font-semibold text-gray-900">Time‑to‑Value rapid</h4>
+              <h4 className="font-semibold text-gray-900">Time-to-Value rapid</h4>
               <p className="text-sm text-gray-600 mt-1">
                 MVP în câteva săptămâni, nu luni.
               </p>
