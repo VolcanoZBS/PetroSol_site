@@ -86,7 +86,7 @@ const HamburgerMenu = () => {
                 className="w-full rounded-xl bg-green-50"
               >
                 <a
-                  href="tel:+40123456789"
+                  href="tel:+40 738 100 020"
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 w-full p-4 rounded-xl text-base font-medium text-green-700 hover:bg-green-100 transition-colors"
                 >

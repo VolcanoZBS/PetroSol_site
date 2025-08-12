@@ -65,7 +65,7 @@ export default function Footer() {
                     href="tel:+40123456789"
                     className="text-gray-300 hover:text-white transition-colors"
                   >
-                    +40 123 456 789
+                    +40 738 100 020
                   </a>
                 </div>
                 <div className="flex items-center">
