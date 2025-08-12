@@ -9,6 +9,7 @@ import {
   Shield,
   Gauge,
   CheckCircle2,
+  ArrowRight,
 } from "lucide-react";
 import unattendedImg from "/images/unattended.webp";
 
@@ -60,18 +61,21 @@ const Unattended: React.FC = () => (
             automate. Integram hardware-ul din teren cu platforma software PetroSol
             pentru control, audit și scalare.
           </p>
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
-          >
-            Programează un demo →
-          </a>
-          <a
-            href="tel:+40738100070"
-            className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white text-blue-700 font-medium ring-1 ring-blue-200 hover:bg-blue-50 transition"
-          >
-            Sună acum
-          </a>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-xl bg-blue-600 text-white px-5 py-3 font-medium text-sm hover:bg-blue-700 transition"
+            >
+              Programează un demo
+              <ArrowRight className="w-4 h-4" />
+            </a>
+            <a
+              href="tel:+40738100070"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-blue-700 px-5 py-3 font-medium text-sm ring-1 ring-blue-200 hover:bg-blue-50 transition"
+            >
+              Sună acum
+            </a>
+          </div>
         </div>
 
         <div className="mx-auto w-full max-w-xl rounded-xl overflow-hidden ring-1 ring-blue-100 shadow-sm">
@@ -217,18 +221,21 @@ const Unattended: React.FC = () => (
             Îți arătăm fluxurile, integrarea și monitorizarea în timp real.
           </p>
         </div>
-        <a
-          href="/contact"
-          className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
-        >
-          Programează un demo →
-        </a>
-        <a
-          href="tel:+40738100070"
-          className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white text-blue-700 font-medium ring-1 ring-blue-200 hover:bg-blue-50 transition"
-        >
-          Sună acum
-        </a>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-xl bg-blue-600 text-white px-5 py-3 font-medium text-sm hover:bg-blue-700 transition"
+          >
+            Programează un demo
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-blue-700 px-5 py-3 font-medium text-sm ring-1 ring-blue-200 hover:bg-blue-50 transition"
+          >
+            Sună acum
+          </a>
+        </div>
       </div>
     </section>
   </div>

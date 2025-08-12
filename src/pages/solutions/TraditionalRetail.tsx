@@ -62,19 +62,21 @@ const TraditionalRetail: React.FC = () => (
               Optimizăm rotația produselor, marjele și experiența clienților prin
               integrare sigură cu plăți, gestiune centralizată și rapoarte în timp real.
             </p>
-            <a
-              href="/contact"
-              className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-amber-600 text-white px-5 py-3 font-medium hover:bg-amber-700 transition"
-            >
-              Cere o prezentare
-              <ArrowRight className="w-4 h-4" />
-            </a>
-           <a
-             href="tel:+40738100070"
-             className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-white text-amber-700 px-5 py-3 font-medium ring-1 ring-amber-200 hover:bg-amber-50 transition"
-           >
-             Sună acum
-           </a>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-xl bg-amber-600 text-white px-5 py-3 font-medium text-sm hover:bg-amber-700 transition"
+              >
+                Cere o prezentare
+                <ArrowRight className="w-4 h-4" />
+              </a>
+              <a
+                href="tel:+40738100070"
+                className="inline-flex items-center gap-2 rounded-xl bg-white text-amber-700 px-5 py-3 font-medium text-sm ring-1 ring-amber-200 hover:bg-amber-50 transition"
+              >
+                Sună acum
+              </a>
+            </div>
         </div>
         <div className="mx-auto w-full max-w-xl rounded-xl overflow-hidden ring-1 ring-amber-100 shadow-sm">
           <div className="aspect-video">
@@ -239,19 +241,21 @@ const TraditionalRetail: React.FC = () => (
             Îți arătăm fluxurile POS, gestiunea stocurilor și promovările dinamice.
           </p>
         </div>
-        <a
-          href="/contact"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-amber-600 text-white px-5 py-3 font-medium hover:bg-amber-700 transition"
-        >
-          Programează un demo
-          <ArrowRight className="w-4 h-4" />
-        </a>
-       <a
-         href="tel:+40738100070"
-         className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-amber-700 px-5 py-3 font-medium ring-1 ring-amber-200 hover:bg-amber-50 transition"
-       >
-         Sună acum
-       </a>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-xl bg-amber-600 text-white px-5 py-3 font-medium text-sm hover:bg-amber-700 transition"
+          >
+            Programează un demo
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-amber-700 px-5 py-3 font-medium text-sm ring-1 ring-amber-200 hover:bg-amber-50 transition"
+          >
+            Sună acum
+          </a>
+        </div>
       </div>
     </section>
   </div>

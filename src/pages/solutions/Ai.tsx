@@ -64,25 +64,19 @@ const Ai: React.FC = () => (
             operaționale. Colectăm, curățăm și consolidăm date multi‑sursă pentru insight-uri acționabile
             și decizii rapide.
           </p>
-          <div className="mt-5 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <a
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-600 text-white px-5 py-3 font-medium hover:bg-cyan-700 transition"
+              className="inline-flex items-center gap-2 rounded-xl bg-cyan-600 text-white px-5 py-3 font-medium text-sm hover:bg-cyan-700 transition"
             >
               Programează un demo
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
               href="tel:+40738100070"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-cyan-700 px-5 py-3 font-medium ring-1 ring-cyan-200 hover:bg-cyan-50 transition"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-cyan-700 px-5 py-3 font-medium text-sm ring-1 ring-cyan-200 hover:bg-cyan-50 transition"
             >
               Sună acum
-            </a>
-            <a
-              href="/solutions/custom-solutions"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-cyan-700 px-5 py-3 font-medium ring-1 ring-cyan-100 hover:bg-cyan-50 transition"
-            >
-              Integrare personalizată
             </a>
           </div>
         </div>
@@ -242,19 +236,21 @@ const Ai: React.FC = () => (
             Îți arătăm un demo cu modele, dashboard și flux operativ.
           </p>
         </div>
-        <a
-          href="/contact"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-600 text-white px-5 py-3 font-medium hover:bg-cyan-700 transition"
-        >
-          Cere un demo
-          <ArrowRight className="w-4 h-4" />
-        </a>
-        <a
-          href="tel:+40738100070"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-cyan-700 px-5 py-3 font-medium ring-1 ring-cyan-200 hover:bg-cyan-50 transition"
-        >
-          Sună acum
-        </a>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-xl bg-cyan-600 text-white px-5 py-3 font-medium text-sm hover:bg-cyan-700 transition"
+          >
+            Cere un demo
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-cyan-700 px-5 py-3 font-medium text-sm ring-1 ring-cyan-200 hover:bg-cyan-50 transition"
+          >
+            Sună acum
+          </a>
+        </div>
       </div>
     </section>
   </div>

@@ -60,19 +60,21 @@ const Payment: React.FC = () => (
           <p className="mt-3 text-gray-700 leading-relaxed">
             Acceptare card bancar (EMV, contactless), portofele digitale, card flotă și plăți recurente – cu reconciliere automată, raportare unificată și conformitate PCI. Optimizăm timpul la POS și transparența financiară.
           </p>
-          <a
-            href="/contact"
-            className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-purple-600 text-white px-5 py-3 font-medium hover:bg-purple-700 transition"
-          >
-            Cere o discuție
-            <ArrowRight className="w-4 h-4" />
-          </a>
-          <a
-            href="tel:+40738100070"
-            className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-white text-purple-700 px-5 py-3 font-medium ring-1 ring-purple-200 hover:bg-purple-50 transition"
-          >
-            Sună acum
-          </a>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-xl bg-purple-600 text-white px-5 py-3 font-medium text-sm hover:bg-purple-700 transition"
+            >
+              Cere o discuție
+              <ArrowRight className="w-4 h-4" />
+            </a>
+            <a
+              href="tel:+40738100070"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-purple-700 px-5 py-3 font-medium text-sm ring-1 ring-purple-200 hover:bg-purple-50 transition"
+            >
+              Sună acum
+            </a>
+          </div>
         </div>
         <div className="mx-auto w-full max-w-xl rounded-xl overflow-hidden ring-1 ring-purple-100 shadow-sm">
           <div className="aspect-video">
@@ -237,19 +239,21 @@ const Payment: React.FC = () => (
             Îți arătăm cum stabilizăm fluxul și reducem timpii de închidere.
           </p>
         </div>
-        <a
-          href="/contact"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-purple-600 text-white px-5 py-3 font-medium hover:bg-purple-700 transition"
-        >
-          Programează un demo
-          <ArrowRight className="w-4 h-4" />
-        </a>
-        <a
-          href="tel:+40738100070"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-purple-700 px-5 py-3 font-medium ring-1 ring-purple-200 hover:bg-purple-50 transition"
-        >
-          Sună acum
-        </a>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-xl bg-purple-600 text-white px-5 py-3 font-medium text-sm hover:bg-purple-700 transition"
+          >
+            Programează un demo
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-purple-700 px-5 py-3 font-medium text-sm ring-1 ring-purple-200 hover:bg-purple-50 transition"
+          >
+            Sună acum
+          </a>
+        </div>
       </div>
     </section>
   </div>

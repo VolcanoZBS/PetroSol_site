@@ -61,19 +61,22 @@ const IndustrialCRT: React.FC = () => (
             facturare automată - integrate cu ERP și e-Factura.
           </p>
 
-          <a
-            href="/contact"
-            className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 text-white px-5 py-3 font-medium hover:bg-indigo-700 transition"
-          >
-            Discută cu un consultant
-            <ArrowRight className="w-4 h-4" />
-          </a>
-          <a
-            href="tel:+40738100070"
-            className="mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-white text-indigo-700 px-5 py-3 font-medium ring-1 ring-indigo-200 hover:bg-indigo-50 transition"
-          >
-            Sună acum
-          </a>
+          {/* Hero buttons */}
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 text-white px-5 py-3 font-medium text-sm hover:bg-indigo-700 transition"
+            >
+              Discută cu un consultant
+              <ArrowRight className="w-4 h-4" />
+            </a>
+            <a
+              href="tel:+40738100070"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-indigo-700 px-5 py-3 font-medium text-sm ring-1 ring-indigo-200 hover:bg-indigo-50 transition"
+            >
+              Sună acum
+            </a>
+          </div>
         </div>
 
         <div className="mx-auto w-full max-w-xl rounded-xl overflow-hidden ring-1 ring-indigo-100 shadow-sm">
@@ -219,19 +222,22 @@ const IndustrialCRT: React.FC = () => (
             Îți arătăm cum automatizăm contractele, rutele și facturarea.
           </p>
         </div>
-        <a
-          href="/contact"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 text-white px-5 py-3 font-medium hover:bg-indigo-700 transition"
-        >
-          Contactează-ne
-          <ArrowRight className="w-4 h-4" />
-        </a>
-        <a
-          href="tel:+40738100070"
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-indigo-700 px-5 py-3 font-medium ring-1 ring-indigo-200 hover:bg-indigo-50 transition"
-        >
-          Sună acum
-        </a>
+        {/* Final CTA buttons */}
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 text-white px-5 py-3 font-medium text-sm hover:bg-indigo-700 transition"
+          >
+            Contactează-ne
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+40738100070"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-indigo-700 px-5 py-3 font-medium text-sm ring-1 ring-indigo-200 hover:bg-indigo-50 transition"
+          >
+            Sună acum
+          </a>
+        </div>
       </div>
     </section>
   </div>

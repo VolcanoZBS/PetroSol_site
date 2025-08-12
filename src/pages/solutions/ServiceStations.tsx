@@ -1,4 +1,3 @@
-// src/pages/solutions/ServiceStations.tsx
 import React from "react";
 import {
   Fuel,

@@ -65,22 +65,16 @@ const CustomSolutions: React.FC = () => {
             <div className="mt-5 flex flex-wrap gap-3">
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-600 text-white px-5 py-3 font-medium hover:bg-sky-700 transition"
+                className="inline-flex items-center gap-2 rounded-xl bg-sky-600 text-white px-5 py-3 font-medium text-sm hover:bg-sky-700 transition"
               >
                 Discută proiectul
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="tel:+40738100070"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-sky-700 px-5 py-3 font-medium ring-1 ring-sky-200 hover:bg-sky-50 transition"
+                className="inline-flex items-center gap-2 rounded-xl bg-white text-sky-700 px-5 py-3 font-medium text-sm ring-1 ring-sky-200 hover:bg-sky-50 transition"
               >
                 Sună acum
-              </a>
-              <a
-                href="/solutions/ai"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-sky-700 px-5 py-3 font-medium ring-1 ring-sky-100 hover:bg-sky-50 transition"
-              >
-                Vezi componenta AI
               </a>
             </div>
           </div>
@@ -284,14 +278,14 @@ const CustomSolutions: React.FC = () => {
           <div className="flex flex-wrap gap-3">
             <a
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-600 text-white px-5 py-3 font-medium hover:bg-sky-700 transition"
+              className="inline-flex items-center gap-2 rounded-xl bg-sky-600 text-white px-5 py-3 font-medium text-sm hover:bg-sky-700 transition"
             >
               Contactează-ne
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
               href="tel:+40738100070"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-sky-700 px-5 py-3 font-medium ring-1 ring-sky-200 hover:bg-sky-50 transition"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-sky-700 px-5 py-3 font-medium text-sm ring-1 ring-sky-200 hover:bg-sky-50 transition"
             >
               Sună acum
             </a>
