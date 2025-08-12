@@ -91,7 +91,7 @@ const OurCustomers: React.FC = () => { // Am redenumit componenta din 'Partners'
                   </div>
                   <div>
                     <dt className="text-gray-500">Integrări</dt>
-                    <dd className="font-semibold text-gray-900">100+</dd>
+                    <dd className="font-semibold text-gray-900">1000+</dd>
                   </div>
                   <div>
                     <dt className="text-gray-500">Suport</dt>
