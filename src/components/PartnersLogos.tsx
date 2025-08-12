@@ -35,13 +35,9 @@ const PartnersLogos: React.FC<{ title?: string }> = ({ title = "Partenerii noșt
   const firstRow = partners.slice(0, firstRowCount);
   const secondRow = partners.slice(firstRowCount);
 
-  const cellCls =
-    "h-12 md:h-14 flex items-center justify-center";
-  const imgCls =
-    "max-h-full max-w-[150px] w-auto object-contain";
-
-  const enlarge = (name: string) =>
-    name === "Datecs" || name === "Danubius" ? "scale-[2.2]" : "";
+  // Container și imagine cu dimensiuni uniforme pentru TOATE logo‑urile
+  const cellCls = "h-14 md:h-16 flex items-center justify-center px-2";
+  const imgCls = "h-full w-auto object-contain";
 
   return (
     <section className="py-14">
@@ -64,13 +60,13 @@ const PartnersLogos: React.FC<{ title?: string }> = ({ title = "Partenerii noșt
                 alt={p.name}
                 loading="lazy"
                 decoding="async"
-                className={`${imgCls} ${enlarge(p.name)}`}
+                className={imgCls}
               />
             </div>
           ))}
         </div>
 
-        {/* Desktop: 6 pe primul rând, restul centrat pe al doilea */}
+        {/* Desktop: 6 pe primul rând, restul pe rândul 2 centrat */}
         <div className="hidden lg:flex flex-col gap-12">
           <div className="grid grid-cols-6 gap-14 justify-items-center">
             {firstRow.map(p => (
@@ -80,7 +76,7 @@ const PartnersLogos: React.FC<{ title?: string }> = ({ title = "Partenerii noșt
                   alt={p.name}
                   loading="lazy"
                   decoding="async"
-                  className={`${imgCls} ${enlarge(p.name)}`}
+                  className={imgCls}
                 />
               </div>
             ))}
@@ -94,7 +90,7 @@ const PartnersLogos: React.FC<{ title?: string }> = ({ title = "Partenerii noșt
                     alt={p.name}
                     loading="lazy"
                     decoding="async"
-                    className={`${imgCls} ${enlarge(p.name)}`}
+                    className={imgCls}
                   />
                 </div>
               ))}
