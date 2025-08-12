@@ -7,7 +7,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Facebook, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
 import { SiGoogle } from "react-icons/si";
-import logo from '../assets/images/logo.png'; // importă logo-ul
+import logo from '../assets/images/Logo.png'; // importă logo-ul
 
 export default function Footer() {
   const [showPolicy, setShowPolicy] = React.useState(false);
