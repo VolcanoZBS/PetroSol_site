@@ -1,24 +1,21 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 
-// Importă logo-urile companiilor care folosesc software-ul nostru
-import BentoLogo from '../assets/images/partners/Bento_logo.svg';
-import ForteLogo from '../assets/images/partners/Forte_logo.png';
-import OscarLogo from '../assets/images/partners/Oscar_Downstream_logo.svg.png';
-import RompetrolLogo from '../assets/images/partners/Rompetrol_logo.png';
-import OctanoLogo from '../assets/images/partners/Octano_logo.png'
+import BentoLogo from '../assets/images/ourclients/Bento_logo.svg';
+import ForteLogo from '../assets/images/ourclients/Forte_logo.png';
+import OscarLogo from '../assets/images/ourclients/Oscar_Downstream_logo.svg.png';
+import RompetrolLogo from '../assets/images/ourclients/Rompetrol_logo.png';
+import OctanoLogo from '../assets/images/ourclients/Octano_logo.png'
 
-const customers = [ // Am redenumit din 'partners' în 'customers'
+const customers = [ 
   { name: 'Bento', logo: BentoLogo },
   { name: 'Forte', logo: ForteLogo },
   { name: 'Oscar Downstream', logo: OscarLogo },
   { name: 'Rompetrol', logo: RompetrolLogo },
-  // Am dublat pentru a umple mai mult spațiu și a asigura fluiditatea
   { name: 'Octano', logo: OctanoLogo }, 
-  //{ name: 'Forte', logo: ForteLogo }, // Păstrăm comentariul original
 ];
 
-const OurCustomers: React.FC = () => { // Am redenumit componenta din 'Partners' în 'OurCustomers'
+const OurCustomers: React.FC = () => { 
   const scrollerRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
@@ -44,7 +41,7 @@ const OurCustomers: React.FC = () => { // Am redenumit componenta din 'Partners'
   }, []);
 
   return (
-    <section id="our-customers" className="py-20 bg-white"> {/* Am actualizat id-ul secțiunii */}
+    <section id="our-customers" className="py-20 bg-white"> 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
