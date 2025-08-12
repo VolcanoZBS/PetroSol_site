@@ -7,6 +7,7 @@ import WebBasedSolution from "../components/WebBasedSolution";
 import ValueProposition from "../components/ValueProposition";
 import SolutionsSection from "../components/SolutionsSection";
 import CertificationsSection from "../components/CertificationsSection";
+import PartnersLogos from "../components/PartnersLogos";
 
 const ContactUsSectionLazy = lazy(() => import("../components/ContactUsSection"));
 
@@ -28,6 +29,7 @@ const Home = () => {
         <Suspense fallback={null}>
           <ContactUsSectionLazy />
         </Suspense>
+        <PartnersLogos />
       </main>
     </>
   );
