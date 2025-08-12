@@ -84,7 +84,7 @@ export default function ContactUsSection() {
               </li>
               <li className="flex items-center gap-3">
                 <Calendar className="w-5 h-5 text-blue-600" />
-                <span className="text-gray-700">Luni–Vineri, 09:00–18:00</span>
+                <span className="text-gray-700">Luni-Vineri, 09:00-18:00</span>
               </li>
             </ul>
           </div>

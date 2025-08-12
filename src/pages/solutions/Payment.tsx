@@ -58,7 +58,7 @@ const Payment: React.FC = () => (
             Plăți & Soluții de Checkout
           </h1>
           <p className="mt-3 text-gray-700 leading-relaxed">
-            Acceptare card bancar (EMV, contactless), portofele digitale, card flotă și plăți recurente – cu reconciliere automată, raportare unificată și conformitate PCI. Optimizăm timpul la POS și transparența financiară.
+            Acceptare card bancar (EMV, contactless), portofele digitale, card flotă și plăți recurente - cu reconciliere automată, raportare unificată și conformitate PCI. Optimizăm timpul la POS și transparența financiară.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a

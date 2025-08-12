@@ -59,7 +59,7 @@ const CustomSolutions: React.FC = () => {
             </h1>
             <p className="mt-3 text-gray-700 leading-relaxed">
               Proiectăm și livrăm aplicații adaptate proceselor tale: integrare cu sisteme existente,
-              scalare sigură, automatizare și raportare clară. De la analiză la mentenanță – acoperim
+              scalare sigură, automatizare și raportare clară. De la analiză la mentenanță - acoperim
               întregul ciclu de viață.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">

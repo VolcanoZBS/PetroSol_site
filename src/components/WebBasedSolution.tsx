@@ -18,7 +18,7 @@ const WebSolutionSection: React.FC = () => {
           </p>
           <ul className="space-y-4">
             {[
-              "Acces 24/7 de pe orice dispozitiv – desktop, tabletă sau mobil",
+              "Acces 24/7 de pe orice dispozitiv - desktop, tabletă sau mobil",
               "Actualizare instantanee în timp real a stocurilor și vânzărilor",
               "Panou de control personalizat și rapoarte detaliate",
               "Integrare securizată cu sisteme ERP și POS existente",

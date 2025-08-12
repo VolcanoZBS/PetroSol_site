@@ -54,7 +54,7 @@ const CertificationsSection: React.FC = () => {
                     <span className="font-semibold text-gray-700">
                       ISO 9001:2015
                     </span>{" "}
-                    – Managementul Calității
+                    - Managementul Calității
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
@@ -63,7 +63,7 @@ const CertificationsSection: React.FC = () => {
                     <span className="font-semibold text-gray-700">
                       ISO/IEC 27001:2013
                     </span>{" "}
-                    – Securitatea Informației
+                    - Securitatea Informației
                   </p>
                 </li>
               </ul>

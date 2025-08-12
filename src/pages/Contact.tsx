@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
               <span className="mt-0.5 text-blue-600"><Clock className="w-5 h-5" /></span>
               <div>
                 <p className="font-medium text-gray-900">Program</p>
-                <p>Luni – Vineri: 09:00 – 17:00</p>
+                <p>Luni - Vineri: 09:00 - 17:00</p>
               </div>
             </li>
           </ul>
@@ -210,7 +210,7 @@ const Contact: React.FC = () => {
             </div>
           </form>
           <p className="mt-6 text-[11px] text-gray-500">
-            Notă: Emailurile sunt trimise prin EmailJS (client-side) – adaugă cheile în .env și decomentează codul.
+            Notă: Emailurile sunt trimise prin EmailJS (client-side) - adaugă cheile în .env și decomentează codul.
           </p>
         </section>
       </div>

@@ -128,7 +128,7 @@ const Unattended: React.FC = () => (
         <Feature
           icon={<Bell className="w-5 h-5" />}
           title="Monitorizare & alerte"
-          desc="Stare echipamente, căderi rețea, valori depășite – notificări în timp real."
+          desc="Stare echipamente, căderi rețea, valori depășite - notificări în timp real."
         />
       </div>
     </section>

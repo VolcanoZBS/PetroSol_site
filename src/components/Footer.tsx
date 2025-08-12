@@ -132,7 +132,7 @@ export default function Footer() {
         fullWidth
       >
         <DialogTitle id="alert-dialog-title">
-          {"Prelucrarea datelor cu caracter personal – Nota de informare"}
+          {"Prelucrarea datelor cu caracter personal - Nota de informare"}
         </DialogTitle>
         <DialogContent dividers>
           <DialogContentText
@@ -140,8 +140,8 @@ export default function Footer() {
             sx={{ whiteSpace: 'pre-line', color: '#222', fontSize: 15 }}
           >
 {`In contextul:
-– Prevederilor Regulamentului nr. 679/2016 privind protecţia persoanelor fizice in ceea ce priveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date (in continuare, Regulamentul),
-– Prelucrarii de catre Petrol Solutions a anumitor date cu caracter personal,
+- Prevederilor Regulamentului nr. 679/2016 privind protecţia persoanelor fizice in ceea ce priveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date (in continuare, Regulamentul),
+- Prelucrarii de catre Petrol Solutions a anumitor date cu caracter personal,
 
 Detinatorul site-ului, Petrol Solutions S.R.L. cu sediul social in Bucuresti, str. Cpt. Alexandru Serbanescu nr. 85, sector 1, inregistrata la Registrului Comertului sub nr. J40/5688/2014, cod unic de identificare RO33158679, e-mail: office@petrosol.ro, Tel: +4 0723 888 850, este Operator de date conform Regulamentului.
 
@@ -165,15 +165,15 @@ In cazul in care efectuati o comanda pe site-ul nostru, datele necesare onorarii
 In vederea actualizarii datelor d-voastra, dupa inregistrarea in cont, puteti actualiza informatiile oferite prin accesarea sectiunii “Cont”.
 In cazul in care doriti sa ne adresati un mesaj prin intermediul Formularului de contact pus la dispozitie pe site, sunt necesare informatii referitoare la numele si prenumele, d-voastra, la adresa de e-mail, la departamentul caruia ii adresati mesajul, precum si la mesajul pe care doriti sa ni-l trimiteti; in mod optional, strict la alegerea d-voastra, ne puteti oferi si numarul de telefon la care puteti fi contactat. Folosim datele colectate in acest mod pentru a avea mijloacele necesare comunicarii raspunsului solicitat de d-voastra.
 
-Exista posibilitatea ca noi sa solicitam informatii suplimentare, cum ar fi, spre exemplu, cele de natura fiscala – daca suntem obligati de lege sa depunem declaratii fiscale sau alte tipuri de dpcumente in legatura cu produsele comandate de d-voastra.
+Exista posibilitatea ca noi sa solicitam informatii suplimentare, cum ar fi, spre exemplu, cele de natura fiscala - daca suntem obligati de lege sa depunem declaratii fiscale sau alte tipuri de dpcumente in legatura cu produsele comandate de d-voastra.
 
 Datele d-voastra vor fi folosite in scop de marketing doar daca vom avea consimtamantul d-voastra explicit in vederea comunicarii de informari cu acest tip de continut.
 
 In concluzie, prelucram datele anterior mentionate:
-– in scop contractual, in vederea onorarii comenzilor lansate de d-voastra,
-– in vederea comunicarii de mesaje de tip newsletter, daca v-ati abonat la acest serviciu, inclusiv in vederea trimiterii de mesaje cu caracter informativ referitor la drepturile si obligatiile d-voastra ca urmare a unor modificari, actualizari, aparitiei unor noi prevederi legale privind regimul produselor comandate de d-voastra;
-– in scop legal – atunci cand solicitam detalii suplimentare de natura financiar-fiscala,
-– in scop de marketing direct, adica pentru a va tine la curent cu produsele si/sau serviciile noastre si doar daca daca optati in mod explicit pentru o astfel de comunicare. Chiar si in astfel de cazuri, va asiguram ca aveti o opțiune usor de folosit pentru a va retrage consimtamantul in orice moment, fie prin dezabonarea la serviciul de newsletter, fie contactandu-ne prin e-mail la adresa dpo@petrosol.ro.
+- in scop contractual, in vederea onorarii comenzilor lansate de d-voastra,
+- in vederea comunicarii de mesaje de tip newsletter, daca v-ati abonat la acest serviciu, inclusiv in vederea trimiterii de mesaje cu caracter informativ referitor la drepturile si obligatiile d-voastra ca urmare a unor modificari, actualizari, aparitiei unor noi prevederi legale privind regimul produselor comandate de d-voastra;
+- in scop legal - atunci cand solicitam detalii suplimentare de natura financiar-fiscala,
+- in scop de marketing direct, adica pentru a va tine la curent cu produsele si/sau serviciile noastre si doar daca daca optati in mod explicit pentru o astfel de comunicare. Chiar si in astfel de cazuri, va asiguram ca aveti o opțiune usor de folosit pentru a va retrage consimtamantul in orice moment, fie prin dezabonarea la serviciul de newsletter, fie contactandu-ne prin e-mail la adresa dpo@petrosol.ro.
 
 Vom transmite datele d-voastra doar si in masura in care este necesar:
 • Catre furnizorii serviciilor de curierat, in vederea livrarii comenzilor d-voastra
@@ -198,18 +198,18 @@ Cookie-uri.
 
 Site-ul petrosol.ro utilizeaza tehnologia de tip cookie pentru a va oferi un o experienta web mai buna si totodata, personalizata. Datele stocate de fisierele de tip cookie utilizate pe site  nu arata detalii personale care sa fie de natura a conduce la o identitate individuala.
 
-Un fisier de tip cookie reprezinta un mic fisier text care este stocat si/sau citit de browserul d-voastra web pe hard disk-ul dispozitivului dvs. final (de exemplu, computer, laptop sau smartphone) – in functie de site-urile web pe care le vizitati. Totodata, fisierele de tip cookie contribuie la crearea unei interactiuni mai sigura si mai rapida, deoarece aceste fisiere pot retine preferintele d-voastra (de exemplu, autentificare, limba), trimitand informatiile pe care le contin inapoi la site-ul web originar (first-party cookie) sau catre alt site web caruia ii apartin (third-party cookie), atunci cand vizitati din nou site-ul web respectiv utilizand acelasi dispozitiv final.
+Un fisier de tip cookie reprezinta un mic fisier text care este stocat si/sau citit de browserul d-voastra web pe hard disk-ul dispozitivului dvs. final (de exemplu, computer, laptop sau smartphone) - in functie de site-urile web pe care le vizitati. Totodata, fisierele de tip cookie contribuie la crearea unei interactiuni mai sigura si mai rapida, deoarece aceste fisiere pot retine preferintele d-voastra (de exemplu, autentificare, limba), trimitand informatiile pe care le contin inapoi la site-ul web originar (first-party cookie) sau catre alt site web caruia ii apartin (third-party cookie), atunci cand vizitati din nou site-ul web respectiv utilizand acelasi dispozitiv final.
 
 Va puteti retrage consimtamantul privind fisierele de tip cookie in orice moment. In acest scop, puteti sa blocati sau eliminati fisierele cookie fie prin intermediul setarilor browserului d-voastra web sau prin utilizarea unor software-uri puse la dispozitie de terti, sau urmand instructiunile specifice pentru categoriile de cookie din sectiunile urmatoare. In orice situatie, pot aparea probleme legate de utilizarea anumitor parti ale site-ului web daca dezactivati fisierele de tip cookie.
 
 In cazul in care doriti sa eliminati fisierele de tip cookie stocate pe dispozitivele d-voastra si sa configurati browserul web astfel incat sa refuze fisiere de tip cookie, puteti sa utilizati setarile privind preferințele din browser-ul dvs. web. De obicei, puteți găsi setarile de navigare referitoare la fisiere de tip cookie in meniurile „Optiuni”, „Instrumente” sau „Preferinte” din browserul web pe care il utilizati pentru a accesa site-ul nostru. In functie de browserele web existente, pot fi utilizate mijloace diverse pentru a dezactiva fisierele de tip cookie. Pentru a obtine mai multe informatii, va rugăm sa vizitati website-ul browserelor dvs.:
 
-• Setari cookie in Internet Explorer – Internet Explorer;
-• Setari cookie in Firefox – Firefox;
-• Setari cookie in Chrome – Chrome;
-• Setari cookie in Safari – Safari;
-• Setari cookie in Edge – Edge;
-• Setari cookie in Opera – Opera.
+• Setari cookie in Internet Explorer - Internet Explorer;
+• Setari cookie in Firefox - Firefox;
+• Setari cookie in Chrome - Chrome;
+• Setari cookie in Safari - Safari;
+• Setari cookie in Edge - Edge;
+• Setari cookie in Opera - Opera.
 
 Pentru a afla mai multe despre fișierele de tip cookie, va rugam sa vizitati www.allaboutcookies.org sau www.youronlinechoices.eu.
 
@@ -224,8 +224,8 @@ Puteti renunta la Google Analytics fara a afecta modul in care vizitati site-ul 
 • Alte tipuri de fisiere de tip cookie care pot fi utilizate ulterior. Va vom informa prin politicile noastre actualizate daca sunt utilizate orice alte tipuri de cookies.
 
 Durata de viața a cookie-urilor poate varia semnificativ, depinzand de scopul pentru care este plasat. Exista urmatoarele categorii de cookie-uri care determină si durata de viața a acestora:
-• Cookie-uri de sesiune – este un cookie care este sters automat atunci cand utilizatorul inchide browserul.
-• Cookie-uri persistente sau fixe – sunt cookie-uri care raman stocate in terminalul utilizatorului pana cand atinge o anumita data de expirare (care poate fi de cateva minute, zile sau cativa ani in viitor) sau pana la stegerea acestuia de catre utilizator, in orice moment, prin intermediul setarilor browserului.
+• Cookie-uri de sesiune - este un cookie care este sters automat atunci cand utilizatorul inchide browserul.
+• Cookie-uri persistente sau fixe - sunt cookie-uri care raman stocate in terminalul utilizatorului pana cand atinge o anumita data de expirare (care poate fi de cateva minute, zile sau cativa ani in viitor) sau pana la stegerea acestuia de catre utilizator, in orice moment, prin intermediul setarilor browserului.
 
 Drepturile persoanei vizate (persoana ale carei date sunt prelucrate). Conform Regulamentului de protectie a datelor cu caracter personal nr. 679/2016, persoanele fizice ale caror date sunt prelucrate beneficiaza de urmatoarele drepturi: de informare, de acces, de rectificare, de stergere, de portabilitate a datelor, de opozitie, de restrictionare a prelucrarii, de a nu face obiectul unei decizii baza exclusive pe prelucrarea automata, de a depune o plangere la Autoritatea Nationala de Supraveghere a Datelor cu Caracter Personal.
 

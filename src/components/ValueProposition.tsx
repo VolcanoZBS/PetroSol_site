@@ -21,7 +21,7 @@ export default function ValueProposition() {
               De ce <span className="text-blue-600">PetroSol</span>
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Platforme software pentru distribuție carburanți, retail și operațiuni industriale –
+              Platforme software pentru distribuție carburanți, retail și operațiuni industriale -
               cu rezultate măsurabile, nu doar promisiuni.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function ValueProposition() {
             },
             {
               title: "Integrare rapidă",
-              desc: "Conectăm case fiscale, pompe, ERP/contabilitate, e-Factura și sisteme terțe – fără întreruperi.",
+              desc: "Conectăm case fiscale, pompe, ERP/contabilitate, e-Factura și sisteme terțe - fără întreruperi.",
             },
           ].map((item) => (
             <div key={item.title} className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-6">
