@@ -8,6 +8,7 @@ import {
   Clock,
   ArrowRight
 } from "lucide-react";
+import tabletaImg from "../assets/images/tableta.webp"
 
 interface FeatureItem {
   Icon: React.ElementType;
@@ -41,7 +42,7 @@ const OptimizationSection: React.FC = () => {
             <div className="order-last md:order-first">
               <div className="rounded-2xl overflow-hidden ring-1 ring-blue-100 shadow-sm bg-white">
                 <img
-                  src="/images/optimizare-operatiuni.webp"
+                  src={tabletaImg}
                   alt="Dashboard operațional PetroSol pentru optimizare"
                   className="w-full h-full object-cover"
                   loading="lazy"
