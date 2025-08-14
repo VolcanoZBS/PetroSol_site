@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1_title": "Complete IT Solutions for the Petroleum Industry",
+    "slide1_desc": "We transform operations with cutting-edge technology.",
+    "slide2_title": "Automation & Integration",
+    "slide2_desc": "Unified processes, centralized data, full control.",
+    "slide3_title": "Performance & Scalability",
+    "slide3_desc": "Flexible platform built for safe growth.",
+    "cta": "Discover our solutions",
+    "indicator": "Go to slide {{index}}"
+  },
+  "partners.title": "Our partners",
+  "mobileNav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "about": "About us",
+    "contact": "Contact",
+    "call": "Call now"
+  },
+  "footer": {
+    "tagline": "Complete IT solutions for the petroleum industry and beyond.",
+    "contactTitle": "Contact",
+    "infoTitle": "Information",
+    "about": "About us",
+    "solutions": "Our solutions",
+    "privacy": "Privacy Policy",
+    "close": "Close",
+    "rights": "All rights reserved.",
+    "privacyTitle": "Personal Data Processing - Information Notice"
+  },
+  "header": {
+    "logoAlt": "PetroSol Logo",
+    "homeAria": "PetroSol home page",
+    "toggleLocaleAria": "Change language ({{lang}})",
+    "solutions": [
+      { "name": "Fuel Service Stations", "path": "service-stations", "description": "We optimise fuel station operations." },
+      { "name": "Self Service", "path": "unattended", "description": "Efficient self‑service systems." },
+      { "name": "Industrial CRT", "path": "industrial-crt", "description": "Robust CRT technology." },
+      { "name": "Traditional Retail", "path": "traditional-retail", "description": "Fast, familiar interfaces." },
+      { "name": "Payments", "path": "payment", "description": "Secure payment platforms." },
+      { "name": "Custom Solutions", "path": "custom-solutions", "description": "Applications tailored to your business." },
+      { "name": "Artificial Intelligence", "path": "ai", "description": "Advanced analytics and intelligent automation." }
+    ]
+  }
+}

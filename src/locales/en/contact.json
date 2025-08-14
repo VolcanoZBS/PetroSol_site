@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Contact",
+    "text": "Tell us briefly what you need: solution category, volumes, integrations or current challenge. We reply in less than one business day."
+  },
+  "info": {
+    "title": "Contact details",
+    "address": {
+      "title": "Address",
+      "line1": "51 Bulevardul Primăverii",
+      "line2": "Bucharest, Romania"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "hours": {
+      "title": "Hours",
+      "value": "Monday - Friday: 09:00 - 17:00"
+    },
+    "stats": [
+      { "label": "Stations", "value": "800+" },
+      { "label": "Integrations", "value": "100+" },
+      { "label": "Support", "value": "24/7" }
+    ]
+  },
+  "form": {
+    "title": "Send a message",
+    "fields": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "consentText": "I agree to the processing of my data to receive a reply and commercial information.",
+    "submit": {
+      "default": "Send message",
+      "sending": "Sending...",
+      "sent": "Sent",
+      "success": "Message sent. Thank you!",
+      "error": "Sending failed. Please retry."
+    }
+  },
+  "validation": {
+    "required": "Required field.",
+    "email": "Invalid email.",
+    "consent": "Consent required."
+  },
+  "note": "Note: Emails are sent via EmailJS (client-side) – add keys in .env and uncomment the code.",
+  "map": {
+    "title": "PetroSol Bucharest"
+  }
+}

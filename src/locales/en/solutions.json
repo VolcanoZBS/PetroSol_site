@@ -1,0 +1,556 @@
+{
+  "heading": "Our Solutions",
+  "subheading": "Choose the right solution for your operations",
+  "cta": "View details",
+  "cardAria": "View solution: {{name}}",
+  "list": [
+    {
+      "name": "Fuel Distribution Stations",
+      "path": "service-stations",
+      "imageUrl": "/images/service-station.webp",
+      "description": "We optimise fuel station operations with integrated solutions and 24/7 support.",
+      "accent": "from-blue-600 to-blue-500",
+      "tag": "Retail Fuel"
+    },
+    {
+      "name": "Unattended Stations",
+      "path": "unattended",
+      "imageUrl": "/images/unattended.webp",
+      "description": "24/7 unattended stations: payments, identification, pump authorisation, monitoring.",
+      "accent": "from-emerald-600 to-emerald-500",
+      "tag": "24/7"
+    },
+    {
+      "name": "Wholesale & Industrial Distribution (CRT)",
+      "path": "industrial-crt",
+      "imageUrl": "/images/industrial-crt.webp",
+      "description": "Wholesale and industrial distribution: contracts, routes, POD, automatic invoicing.",
+      "accent": "from-indigo-600 to-indigo-500",
+      "tag": "B2B"
+    },
+    {
+      "name": "Traditional Retail",
+      "path": "traditional-retail",
+      "imageUrl": "/images/traditional-retail.webp",
+      "description": "POS solutions for retail and HoReCa with fast integration and stability.",
+      "accent": "from-amber-600 to-amber-500",
+      "tag": "POS"
+    },
+    {
+      "name": "Payments",
+      "path": "payment",
+      "imageUrl": "/images/payment.webp",
+      "description": "EMV/contactless payment processing and secure reconciliation.",
+      "accent": "from-purple-600 to-purple-500",
+      "tag": "Payments"
+    },
+    {
+      "name": "Custom Solutions",
+      "path": "custom-solutions",
+      "imageUrl": "/images/custom-solutions.webp",
+      "description": "Custom applications and integration for your processes.",
+      "accent": "from-pink-600 to-pink-500",
+      "tag": "Custom"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "path": "ai",
+      "imageUrl": "/images/ai.webp",
+      "description": "Predictive analytics, automation and insights for operations.",
+      "accent": "from-cyan-600 to-cyan-500",
+      "tag": "AI"
+    }
+  ],
+  "ai": {
+    "hero": {
+      "badge": "Advanced Solution",
+      "title": "Artificial Intelligence & Predictive Analytics",
+      "text": "ML models for consumption forecasting, stock optimisation, anomaly detection and operational recommendations. We collect, clean and consolidate multi‑source data for actionable insights and fast decisions.",
+      "primaryCta": "Schedule a demo",
+      "secondaryCta": "Call now",
+      "imageAlt": "Advanced AI‑powered analytics"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What we deliver with AI & Advanced Analytics",
+      "subtitle": "End‑to‑end pipeline: raw data → insight → measurable action.",
+      "features": [
+        { "icon": "predictive", "title": "Predictive models", "desc": "Fuel consumption, sales volume, seasonal demand forecasting." },
+        { "icon": "kpi", "title": "KPI dashboards", "desc": "Operational metrics, margin, stock rotation, process latencies." },
+        { "icon": "anomaly", "title": "Anomaly detection", "desc": "Identifies suspicious transactions, losses, atypical patterns." },
+        { "icon": "stock", "title": "Stock optimisation", "desc": "Recommended levels + proactive replenishment alerts." },
+        { "icon": "realtime", "title": "Real‑time decisions", "desc": "Stream processing & automatic actions on rules and ML scores." },
+        { "icon": "experiment", "title": "Experimentation", "desc": "A/B testing on promotions, dynamic pricing and operational parameters." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flow",
+      "title": "How data flows",
+      "steps": [
+        "Ingest: we collect data from POS, pumps, ATG, ERP, payments, telemetry.",
+        "Cleaning & normalisation: field mapping, outlier removal, enrichment.",
+        "Storage: data lake + modelled zones for reporting and ML models.",
+        "Modelling: training, evaluation, model versioning and deployment.",
+        "Serving: API scoring, rule engine, notifications & dashboards.",
+        "Improvement: feedback, drift detection, scheduled retraining."
+      ]
+    },
+    "architecture": {
+      "eyebrow": "Architecture",
+      "title": "Components",
+      "blocks": [
+        { "icon": "ingest", "title": "Ingest layer", "desc": "ETL/ELT connectors, streaming, configurable batching." },
+        { "icon": "storage", "title": "Data lake & mart", "desc": "Raw / curated / serving zones for controlled access." },
+        { "icon": "serving", "title": "Model serving", "desc": "API scoring, caching, rolling updates and observability." }
+      ]
+    },
+    "security": {
+      "eyebrow": "Compliance",
+      "title": "Security & governance",
+      "blocks": [
+        { "icon": "protection", "title": "Data protection", "desc": "Encryption in transit & at rest, granular access control." },
+        { "icon": "versioning", "title": "Model versioning", "desc": "Performance tracking, fast rollback, drift alerts." },
+        { "icon": "audit", "title": "Audit & traceability", "desc": "Event logs, score explanations (feature attributions)." }
+      ]
+    },
+    "cta": {
+      "title": "Want faster data‑driven decisions?",
+      "text": "We’ll show you a demo with models, dashboard and operational flow.",
+      "primary": "Request a demo",
+      "secondary": "Call now"
+    }
+  },
+  "custom": {
+    "hero": {
+      "badge": "Custom Solution",
+      "title": "Custom Software Solutions",
+      "text": "We design and deliver applications tailored to your processes: integration with existing systems, safe scaling, automation and clear reporting. From analysis to maintenance – we cover the full lifecycle.",
+      "primaryCta": "Discuss the project",
+      "secondaryCta": "Call now",
+      "imageAlt": "Team developing custom software solutions"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What we can build for you",
+      "subtitle": "Modular approach for speed, quality and continuous adaptation.",
+      "features": [
+        { "icon": "code", "title": "Web & Desktop Applications", "desc": "SPA, operational portals, dashboards and performant internal tools." },
+        { "icon": "integration", "title": "ERP/CRM Integrations", "desc": "Entity, transaction & fiscal document sync and automated data exchange." },
+        { "icon": "api", "title": "APIs & Microservices", "desc": "Scalable architectures, REST/GraphQL, versioning & observability." },
+        { "icon": "ux", "title": "Process‑oriented UX", "desc": "Clear flows, fewer clicks, fast adoption and minimal training." },
+        { "icon": "security", "title": "Built‑in security", "desc": "Auth, RBAC, audit, encryption and compliant policies (ISO/27001 best practices)." },
+        { "icon": "maintenance", "title": "Maintenance & Evolution", "desc": "Roadmap, backlog grooming, patching, incremental refactoring." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Process",
+      "title": "How we work",
+      "steps": [
+        "Analysis & modelling: process mapping, objectives and risks.",
+        "Architecture & design: modules, APIs, security, UX flows.",
+        "Incremental implementation: short sprints + fast feedback.",
+        "Automated testing & QA: unit, integration, performance, security.",
+        "Delivery & observability: deploy, logs, monitoring, alerts.",
+        "Continuous improvement: roadmap, optimisations and scaling."
+      ]
+    },
+    "value": {
+      "eyebrow": "Value",
+      "title": "Why our approach",
+      "blocks": [
+        { "icon": "modularity", "title": "Modularity", "desc": "Extend or replace components without major risk." },
+        { "icon": "cleanIntegration", "title": "Clean integration", "desc": "Resilient APIs + clear mapping of critical data." },
+        { "icon": "automation", "title": "Automation", "desc": "Remove manual steps and operational errors." },
+        { "icon": "speed", "title": "Fast time‑to‑value", "desc": "MVP in weeks, not months." },
+        { "icon": "safety", "title": "Security", "desc": "Access policies, audit trail, monitoring." },
+        { "icon": "scalability", "title": "Scalability", "desc": "Architecture prepared for volume and expansion." }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Tech",
+      "title": "Stack & platforms",
+      "categories": [
+        { "title": "Frontend", "items": ["React / Next.js", "TypeScript", "Tailwind & Component Kits", "PWA & Offline"] },
+        { "title": "Backend & Data", "items": ["Node.js / .NET", "Microservices & Event Bus", "SQL / PostgreSQL / Redis", "REST & GraphQL"] },
+        { "title": "DevOps & Observability", "items": ["Docker / K8s", "Automated CI/CD", "Logging & tracing", "Alerting & SLA"] }
+      ]
+    },
+    "cta": {
+      "title": "Ready to start building your solution?",
+      "text": "Send us the context and we’ll come back with an initial proposal.",
+      "primary": "Contact us",
+      "secondary": "Call now"
+    }
+  },
+  "industrial": {
+    "hero": {
+      "badge": "PetroSol Solution",
+      "title": "Wholesale & Industrial Distribution (CRT)",
+      "text": "We manage end‑to‑end fuel deliveries for industrial clients: contracts & price lists, credit limits, route planning, tank telemetry, delivery confirmation and automatic invoicing – integrated with ERP and e‑Invoice.",
+      "primaryCta": "Talk to a consultant",
+      "secondaryCta": "Call now",
+      "imageAlt": "Wholesale and industrial operations with CRT management"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What the PetroSol solution includes for wholesale & industrial",
+      "subtitle": "Operational automation, traceability and financial control – from contract to cash.",
+      "features": [
+        { "icon": "contracts", "title": "Contracts & pricing", "desc": "Client price lists, clauses, indexations, taxes/discounts, validity periods and credit limits." },
+        { "icon": "planning", "title": "Delivery planning", "desc": "Orders, tank loading, terminal slots, routes and driver/vehicle allocation." },
+        { "icon": "routes", "title": "Routes & execution", "desc": "Navigation, geo check‑ins, timings, photo proofs and signature/OTP for POD." },
+        { "icon": "telemetry", "title": "Telemetry & measurements", "desc": "Flow meters, in‑tank probes (ATG), temperature; quantity reconciliation at load/unload." },
+        { "icon": "invoicing", "title": "Invoicing & e‑Invoice", "desc": "Automatic contract-based calculation, excise/taxes, invoice generation and ANAF submission." },
+        { "icon": "erp", "title": "ERP integration", "desc": "Partner, items, orders, invoices sync; open API for third‑party systems." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flow",
+      "title": "How it works",
+      "steps": [
+        "Define the contract, price list and limits (credit, volume).",
+        "Receive the client order and plan the route & loading slot.",
+        "Truck is loaded; quantity/temperature data captured automatically.",
+        "Delivery executed; POD (signature/OTP/photo) and coordinates collected.",
+        "Quantities reconciled and invoice issued; data sent to ERP and e‑Invoice."
+      ]
+    },
+    "components": {
+      "eyebrow": "Components",
+      "title": "What we support",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & integration",
+      "hardware": [
+        "Certified flow meters/counters and in‑tank ATG probes",
+        "GPS/telematics for fleets and safety sensors",
+        "Driver mobile terminal with POD app (photo/signature/OTP)",
+        "Mobile printer (receipt/CMR) – optional",
+        "Barcodes/RFID at unloading points – optional"
+      ],
+      "software": [
+        "Contracts, price lists and taxation policies",
+        "Orders, dispatching and route optimisation",
+        "Digital POD, photos and documents attached to delivery",
+        "Automatic invoicing and e‑Invoice (ANAF)",
+        "ERP/accounting integration and client portal"
+      ]
+    },
+    "security": {
+      "eyebrow": "Security",
+      "title": "Security & compliance",
+      "points": [
+        "Role‑based access control, audit trail and encryption in transit/at rest.",
+        "Data retention policies and alerts for operational deviations.",
+        "Processes aligned with ISO 9001 and ISO/IEC 27001."
+      ]
+    },
+    "cta": {
+      "title": "Ready to digitise wholesale distribution?",
+      "text": "We show how we automate contracts, routes and invoicing.",
+      "primary": "Contact us",
+      "secondary": "Call now"
+    }
+  },
+  "payment": {
+    "hero": {
+      "badge": "PetroSol Solution",
+      "title": "Payments & Checkout Solutions",
+      "text": "Bank card acceptance (EMV, contactless), digital wallets, fleet card and recurring payments – with automatic reconciliation, unified reporting and PCI compliance. We optimise POS time and financial transparency.",
+      "primaryCta": "Request a discussion",
+      "secondaryCta": "Call now",
+      "imageAlt": "Integrated payment terminal and solutions"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What the payment platform offers",
+      "subtitle": "Unified methods, secure flow, end‑to‑end financial visibility.",
+      "features": [
+        { "icon": "multiMethod", "title": "Multi‑method acceptance", "desc": "EMV chip, contactless, NFC, fleet card, gift card, split tender." },
+        { "icon": "wallets", "title": "Digital wallets", "desc": "Apple Pay, Google Pay and secure tokenisation for fast payments." },
+        { "icon": "recurring", "title": "Recurring & pre‑authorisations", "desc": "Amount hold, delivery confirmation, final capture and subscriptions." },
+        { "icon": "reconciliation", "title": "Automatic reconciliation", "desc": "Aligns terminal, processor and accounting transactions." },
+        { "icon": "multiLocation", "title": "Multi‑location", "desc": "Central policies, consolidated reports and flagged exceptions." },
+        { "icon": "scaling", "title": "Rapid scaling", "desc": "Fast onboarding for new sites and evolution of future methods." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flow",
+      "title": "How a transaction proceeds",
+      "steps": [
+        "Payment initiated at POS / terminal (amount + type).",
+        "Card / token authentication + risk checks.",
+        "Processor / issuing bank authorisation.",
+        "Fiscal receipt issued & event logged.",
+        "Data sent to backoffice and reconciled.",
+        "Reports and alerts on anomalies."
+      ]
+    },
+    "components": {
+      "eyebrow": "Components",
+      "title": "Hardware & integration",
+      "hardwareTitle": "Supported hardware",
+      "softwareTitle": "Software & API",
+      "hardware": [
+        "EMV/contactless POS terminals",
+        "Secure PIN pad",
+        "Fiscal / receipt printer",
+        "Mobile device for field payment",
+        "Fleet / loyalty card reader"
+      ],
+      "software": [
+        "Tokenisation & card vault",
+        "Reconciliation & accounting export",
+        "ERP / e‑Invoice integration",
+        "Dispute & chargeback portal",
+        "Webhooks & JSON reporting"
+      ]
+    },
+    "security": {
+      "eyebrow": "Compliance",
+      "title": "Security & protection",
+      "blocks": [
+        { "icon": "pci", "title": "PCI & encryption", "desc": "End‑to‑end encryption and PCI DSS aligned procedures." },
+        { "icon": "fraud", "title": "Fraud & risk", "desc": "Velocity rules, allow/deny lists and transaction scoring." },
+        { "icon": "uptime", "title": "Uptime & monitoring", "desc": "Health checks, proactive alerts and offline fallback." }
+      ]
+    },
+    "cta": {
+      "title": "Want faster payments and error‑free reconciliation?",
+      "text": "We’ll show how we stabilise the flow and reduce closing times.",
+      "primary": "Schedule a demo",
+      "secondary": "Call now"
+    }
+  },
+  "stations": {
+    "hero": {
+      "badge": "PetroSol Solution",
+      "title": "Fuel Service Station Solutions",
+      "text": "Unified platform connecting pumps, ATG, POS, payments, inventory and reporting in real time. Stable operations, centralised control, data‑driven decisions.",
+      "primaryCta": "Request a demo",
+      "secondaryCta": "Call now",
+      "imageAlt": "PetroSol platform operating a fuel service station"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What the solution covers",
+      "subtitle": "Complete flow: pump → transaction → stock → report → performance insight.",
+      "features": [
+        { "icon": "stock", "title": "Stock & ATG management", "desc": "Level, temperature, density sync; reconciliations and loss alerts." },
+        { "icon": "pump", "title": "Pump monitoring", "desc": "Nozzle status, flow rate, live transactions, lock/unlock, event log." },
+        { "icon": "pos", "title": "POS & payments integration", "desc": "Fleet card, EMV/contactless, fiscal receipt, e‑Invoice and split tender." },
+        { "icon": "reporting", "title": "Reporting & KPIs", "desc": "Margin, liters vs sales, shrinkage, transaction speed, cross‑site compare." },
+        { "icon": "staff", "title": "Staff management", "desc": "Shifts, role permissions, critical action audit, productivity per hour." },
+        { "icon": "compliance", "title": "Compliance & security", "desc": "Access controls, logs, backup, data encryption and automated policies." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flow",
+      "title": "How a standard day runs",
+      "steps": [
+        "Station opening: pump checks, ATG, initial levels.",
+        "Tank replenishment: receipt + volume / temperature reconciliation.",
+        "Transactions & payments: synced POS, promotions and fleet card.",
+        "Continuous monitoring: leak, loss and inactive nozzle alerts.",
+        "Periodic reporting: liters vs stock, margin, technical differences.",
+        "Day close: automatic reconciliation and push reports to management."
+      ]
+    },
+    "value": {
+      "eyebrow": "Value",
+      "title": "Business benefits",
+      "benefits": [
+        { "icon": "loss", "title": "Reducing losses", "desc": "Compare consumption vs actual stock, anomalies & technical differences explained." },
+        { "icon": "efficiency", "title": "Operational efficiency", "desc": "Automation for inventory, reporting, reconciliations and alerts." },
+        { "icon": "visibility", "title": "Full visibility", "desc": "Unified data in a clear dashboard, secure remote access." },
+        { "icon": "governance", "title": "Compliance", "desc": "Automated logs, authority export and safe archiving." },
+        { "icon": "scalability", "title": "Scalability", "desc": "Add new stations fast; central configuration template." },
+        { "icon": "roi", "title": "Accelerated ROI", "desc": "Lower admin costs and optimize product rotation." }
+      ]
+    },
+    "components": {
+      "eyebrow": "Technical",
+      "title": "Components & integration",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & platform",
+      "advancedTitle": "Advanced & analytics",
+      "hardware": [
+        "Multi‑brand pumps",
+        "ATG systems & tank probe",
+        "POS terminals & pin pad",
+        "Fleet card readers",
+        "Cameras & safety sensors"
+      ],
+      "software": [
+        "Responsive web backoffice",
+        "Management mobile app",
+        "External integration API",
+        "Centralised alerting & log",
+        "Automated backup + DR"
+      ],
+      "advanced": [
+        "Consumption / stock forecast",
+        "Loss detection",
+        "Multi‑location comparison",
+        "Dynamic margin report",
+        "External BI integration"
+      ]
+    },
+    "reliability": {
+      "eyebrow": "Safety",
+      "title": "Resilience & monitoring",
+      "features": [
+        { "icon": "cloud", "title": "Cloud redundancy", "desc": "Replication and automatic failover; high uptime & quick recovery." },
+        { "icon": "alerts", "title": "Proactive alerts", "desc": "Flow anomalies, volume differences, transaction time, tank temperature." },
+        { "icon": "maintenance", "title": "Assisted maintenance", "desc": "Equipment log, intervention history and service recommendations." },
+        { "icon": "automation", "title": "Automation", "desc": "Rules for instant reaction to operational conditions." },
+        { "icon": "modular", "title": "Modular architecture", "desc": "Extend without massive rewrites; fast adaptation to new models." },
+        { "icon": "performance", "title": "Performance", "desc": "Fast response for critical ops and scalable load." }
+      ]
+    },
+    "cta": {
+      "title": "Optimise your station operations with PetroSol",
+      "text": "We show live pump monitoring, stocks and consolidated reporting.",
+      "primary": "Schedule a demo",
+      "secondary": "Call now"
+    }
+  },
+  "retail": {
+    "hero": {
+      "badge": "PetroSol Solution",
+      "title": "Traditional Retail & HoReCa",
+      "text": "Unified platform for POS, inventory, loyalty and sales analytics. We optimise product rotation, margins and customer experience through secure payment integration, central management and real‑time reporting.",
+      "primaryCta": "Request a presentation",
+      "secondaryCta": "Call now",
+      "imageAlt": "POS & management solution for retail & HoReCa"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What the solution includes",
+      "subtitle": "Integrated operational flows for stores, restaurants and multi‑site chains.",
+      "features": [
+        { "icon": "pos", "title": "Fast & stable POS", "desc": "Assisted sale, touch mode, combo items, controlled voids and offline sync." },
+        { "icon": "stock", "title": "Inventory management", "desc": "Recipes, transfers, stock counts, lots, adjustments and multi‑site traceability." },
+        { "icon": "customer", "title": "Customer profile", "desc": "Transaction history, preferences and segmentation for relevant campaigns." },
+        { "icon": "promo", "title": "Promo & loyalty", "desc": "Conditional discounts, points, coupons, loyalty card and multi‑site campaigns." },
+        { "icon": "fiscal", "title": "Fiscal & compliant", "desc": "Fiscal device integration, e‑Invoice, daily reporting and audit log." },
+        { "icon": "mobile", "title": "Mobile access", "desc": "KPI dashboard, critical stock, realtime sales and managerial notifications." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flow",
+      "title": "How the day runs",
+      "steps": [
+        "Goods receiving with checks and labeling.",
+        "Configure products, recipes, categories and promo lists.",
+        "Selling at POS / tablet; promotions applied automatically.",
+        "Inventory & margins updated; low / out‑of‑stock alerts.",
+        "Central sync, reports and KPIs in dashboard.",
+        "Sales analysis + promo/recipe tuning for margin optimisation."
+      ]
+    },
+    "components": {
+      "eyebrow": "Components",
+      "title": "What we support & integrate",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & integration",
+      "hardware": [
+        "Touchscreen POS & fiscal printer",
+        "1D/2D barcode scanner",
+        "Cash drawer & customer display",
+        "EMV/contactless payment terminal",
+        "Mobile tablet for floor orders"
+      ],
+      "software": [
+        "Multi‑unit backoffice & roles",
+        "Recipes, cost & dynamic margin",
+        "Promo engine + loyalty card",
+        "ERP / accounting integration",
+        "KPI dashboard & BI export"
+      ]
+    },
+    "analytics": {
+      "eyebrow": "Analytics",
+      "title": "Data‑driven decisions",
+      "cards": [
+        { "icon": "kpi", "title": "Realtime KPIs", "desc": "Sales, average tickets, product rotation and shrinkage." },
+        { "icon": "supply", "title": "Assisted replenishment", "desc": "Automatic proposals based on consumption & seasonality." },
+        { "icon": "control", "title": "Control & audit", "desc": "Role rights, critical action log and exception alerts." }
+      ]
+    },
+    "cta": {
+      "title": "Let's optimise your Retail & HoReCa operations",
+      "text": "We’ll show POS flows, inventory management and dynamic promotions.",
+      "primary": "Schedule a demo",
+      "secondary": "Call now"
+    }
+  },
+  "unattended": {
+    "hero": {
+      "badge": "PetroSol Solution",
+      "title": "Unattended Fuel Stations",
+      "text": "24/7 operation without on‑site staff: user/vehicle identification, secure payment, pump authorization, real‑time monitoring and automated reporting. We integrate field hardware with the PetroSol software platform for control and scale.",
+      "primaryCta": "Schedule a demo",
+      "secondaryCta": "Call now",
+      "imageAlt": "Unattended fueling station payment terminal"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "What the PetroSol solution offers",
+      "subtitle": "Everything you need for safe, automated 24/7 operation.",
+      "features": [
+        { "icon": "payment", "title": "24/7 payments", "desc": "Bank card, contactless (Apple/Google Pay) and fleet card with automatic reconciliation." },
+        { "icon": "identification", "title": "Secure identification", "desc": "RFID/PIN for driver or vehicle with limits, time bands and consumption rules." },
+        { "icon": "control", "title": "Pump & stock control", "desc": "Real‑time authorization, exception locking, tank levels & temperature (ATG)." },
+        { "icon": "video", "title": "Video surveillance", "desc": "Events correlated with images (start/stop, declines, alarms) for audit." },
+        { "icon": "integration", "title": "Full integration", "desc": "ERP, e‑Invoice, fleet card, telemetry and centralised reporting." },
+        { "icon": "monitoring", "title": "Monitoring & alerts", "desc": "Equipment status, network drops, threshold breaches – real‑time notifications." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flow",
+      "title": "How it works",
+      "steps": [
+        "User identifies (RFID/PIN/card) at the terminal.",
+        "System checks rights & limits and authorises the pump.",
+        "Fueling occurs; transaction data collected.",
+        "Transaction closes and is sent to backend / ERP.",
+        "Reports, alerts and video images attach to key events."
+      ]
+    },
+    "components": {
+      "eyebrow": "Components",
+      "title": "What we support",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & integration",
+      "hardware": [
+        "EMV/contactless payment terminal",
+        "RFID reader / PIN keypad",
+        "Pump controller / ATG",
+        "IP camera event correlation",
+        "Receipt / invoice printer (optional)"
+      ],
+      "software": [
+        "Fleet & limits admin portal",
+        "API & ERP / e‑Invoice integration",
+        "Central multi‑site reporting",
+        "Alarms & event audit",
+        "User & role management"
+      ]
+    },
+    "security": {
+      "eyebrow": "Security",
+      "title": "Security & compliance",
+      "points": [
+        "End‑to‑end transaction encryption and audit log.",
+        "Role‑based access, key/password rotation, deviation alerts.",
+        "Processes aligned with ISO 9001 and ISO/IEC 27001."
+      ]
+    },
+    "cta": {
+      "title": "Ready to shift to 24/7 unattended operation?",
+      "text": "We’ll show the flows, integration and live monitoring.",
+      "primary": "Schedule a demo",
+      "secondary": "Call now"
+    }
+  }
+}

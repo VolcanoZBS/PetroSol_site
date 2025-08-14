@@ -10,32 +10,38 @@ import {
   NavigationMenuLink,
 } from "@radix-ui/react-navigation-menu";
 import HamburgerMenu from "../components/HamburgerMenu";
+import { useTranslation } from "react-i18next";
 
-// Toate denumirile și descrierile în română
-const solutionList = [
-  { name: "Stații de alimentare", path: "service-stations", description: "Optimizăm funcționarea stațiilor de alimentare." },
-  { name: "Autoservire", path: "unattended", description: "Sisteme de autoservire eficiente." },
-  { name: "CRT industrial", path: "industrial-crt", description: "Tehnologie CRT robustă." },
-  { name: "Retail tradițional", path: "traditional-retail", description: "Interfețe familiare și rapide." },
-  { name: "Plăți", path: "payment", description: "Platforme de plată securizate." },
-  { name: "Soluții personalizate", path: "custom-solutions", description: "Aplicații adaptate afacerii tale." },
-  { name: "Inteligență artificială", path: "ai", description: "Analiză avansată și automatizare inteligentă." },
-];
+interface SolutionItem {
+  name: string;
+  path: string;
+  description: string;
+}
 
 const Header: React.FC = () => {
   const location = useLocation();
-  const [locale, setLocale] = useState<"ro" | "en">("ro");
+  const { i18n, t } = useTranslation();
+  const current = i18n.language === "en" ? "en" : "ro";
+
+  // obținem lista de soluții din i18n
+  const solutionList = t("header.solutions", {
+    returnObjects: true,
+  }) as SolutionItem[];
 
   useEffect(() => {
     const saved = localStorage.getItem("site_locale");
-    if (saved === "ro" || saved === "en") setLocale(saved);
-  }, []);
+    if (!saved) {
+      if (current !== "ro") i18n.changeLanguage("ro");
+      localStorage.setItem("site_locale", "ro");
+    } else if (saved !== current) {
+      i18n.changeLanguage(saved);
+    }
+  }, [current, i18n]);
 
   const toggleLocale = () => {
-    const next = locale === "ro" ? "en" : "ro";
-    setLocale(next);
+    const next = current === "ro" ? "en" : "ro";
+    i18n.changeLanguage(next);
     localStorage.setItem("site_locale", next);
-    // TODO: aici vei declanșa mecanismul real de i18n (ex: i18n.changeLanguage(next))
   };
 
   return (
@@ -51,9 +57,9 @@ const Header: React.FC = () => {
             }
           }}
           className="flex items-center space-x-3"
-          aria-label="Pagina principală PetroSol"
+          aria-label={t("header.homeAria")}
         >
-          <img src={logo} alt="Siglă PetroSol" className="h-10" />
+          <img src={logo} alt={t("header.logoAlt")} className="h-10" />
           <span className="text-2xl font-bold text-gray-800">PetroSol</span>
         </Link>
 
@@ -71,7 +77,7 @@ const Header: React.FC = () => {
                         : "text-gray-700"
                     } hover:text-blue-600`}
                   >
-                    Soluții
+                    {t("nav.solutions")}
                   </Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="absolute z-50 top-full left-0 mt-1 w-[320px] bg-white rounded-md shadow-lg p-2">
@@ -101,28 +107,30 @@ const Header: React.FC = () => {
             to="/about"
             className="text-base text-gray-700 hover:text-blue-600 transition-colors font-medium"
           >
-            Despre noi
+            {t("nav.about")}
           </Link>
           <Link
             to="/contact"
             className="text-base text-gray-700 hover:text-blue-600 transition-colors font-medium"
           >
-            Contact
+            {t("nav.contact")}
           </Link>
 
           <button
             type="button"
             onClick={toggleLocale}
-            aria-label={`Schimbă limba (${locale === "ro" ? "română" : "engleză"})`}
             className="inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition"
+            aria-label={t("header.toggleLocaleAria", {
+              lang: current === "ro" ? (current === "ro" ? "română" : "engleză") : current === "en" ? (current === "en" ? "English" : "Romanian") : "",
+            })}
           >
-            {locale === "ro" ? (
+            {current === "ro" ? (
               <>
-                RO<span role="img" aria-label="Steagul României">🇷🇴</span>
+                RO<span aria-label="România">🇷🇴</span>
               </>
             ) : (
               <>
-                EN<span role="img" aria-label="Steagul Regatului Unit">🇬🇧</span>
+                EN<span aria-label="United Kingdom">🇬🇧</span>
               </>
             )}
           </button>

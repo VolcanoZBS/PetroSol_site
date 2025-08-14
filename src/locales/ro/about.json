@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "Despre Petrosol",
+    "text": "Din 2005, aducem inovație și excelență în digitalizarea industriei petrolului și gazelor. Alături de parteneri, transformăm complexitatea în eficiență."
+  },
+  "whoWeAre": {
+    "title": "Cine Suntem",
+    "text": "Fondată în 2005 în București, Petrosol oferă soluții IT complete pentru industria petrolieră și sectoarele conexe. Combinăm expertiză tehnică și know‑how de domeniu pentru optimizarea operațiunilor și creșterea productivității."
+  },
+  "missionVision": {
+    "title": "Misiune & Viziune",
+    "mission": {
+      "title": "Misiunea noastră",
+      "text": "Să livrăm soluții software inovatoare, sigure și scalabile care transformă modul de operare al companiilor energetice."
+    },
+    "vision": {
+      "title": "Viziunea noastră",
+      "text": "Să fim partenerul de referință în digitalizarea industriei de petrol și gaze din Europa Centrală și de Est."
+    }
+  },
+  "values": {
+    "title": "Valorile Noastre",
+    "items": [
+      { "icon": "innovation", "title": "Inovare", "text": "Investim continuu în R&D pentru tehnologii relevante." },
+      { "icon": "integrity", "title": "Integritate", "text": "Respectăm standarde etice și de calitate ridicate." },
+      { "icon": "customer", "title": "Orientare către client", "text": "Construim parteneriate și oferim suport dedicat." },
+      { "icon": "excellence", "title": "Excelență operațională", "text": "Livrăm la timp, în buget, cu rezultate măsurabile." }
+    ]
+  },
+  "team": {
+    "title": "Echipa Noastră",
+    "text": "Peste 50 de profesioniști (dezvoltatori, ingineri sistem, analiști date, consultanți) livrează implementări eficiente și suport continuu."
+  },
+  "why": {
+    "title": "De ce să ne alegi?",
+    "cards": [
+      { "icon": "custom", "title": "Soluții personalizate", "text": "Adaptăm platforma la procese și obiective specifice." },
+      { "icon": "fast", "title": "Implementare rapidă", "text": "Arhitectură modulară pentru time‑to‑value scurt." },
+      { "icon": "support", "title": "Suport 24/7", "text": "Monitorizare și intervenție proactivă." },
+      { "icon": "expertise", "title": "Expertiză confirmată", "text": "Peste 100 proiecte finalizate cu succes." }
+    ]
+  }
+}

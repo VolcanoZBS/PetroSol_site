@@ -8,7 +8,8 @@ import {
   Clock,
   ArrowRight
 } from "lucide-react";
-import tabletaImg from "../assets/images/tableta.webp"
+import tabletaImg from "../assets/images/tableta.webp";
+import { useTranslation } from "react-i18next";
 
 interface FeatureItem {
   Icon: React.ElementType;
@@ -16,21 +17,30 @@ interface FeatureItem {
   desc: string;
 }
 
-const features: FeatureItem[] = [
-  { Icon: LifeBuoy,   label: "Suport 24/7",              desc: "Echipă tehnică disponibilă permanent." },
-  { Icon: Sliders,    label: "Personalizare",            desc: "Adaptare rapidă la procesele tale." },
-  { Icon: BookOpen,   label: "Training nelimitat",       desc: "Onboarding continuu pentru echipă." },
-  { Icon: Rocket,     label: "Implementare rapidă",      desc: "Go-live în 1 zi pentru modulele cheie." },
-  { Icon: TrendingUp, label: "Creștere profit",          desc: "Optimizare marjă & rotație stoc." },
-  { Icon: Clock,      label: "Timp operare redus",       desc: "Automatizare task-uri repetitive." }
-];
+export const OptimizationSection: React.FC = () => {
+  const { t } = useTranslation("homepage", { keyPrefix: "optimization" });
 
-const OptimizationSection: React.FC = () => {
+  const features = (t("features", { returnObjects: true }) as any[]).map(f => {
+    const mapIcon: Record<string, React.ElementType> = {
+      support: LifeBuoy,
+      customize: Sliders,
+      training: BookOpen,
+      fastImpl: Rocket,
+      growth: TrendingUp,
+      time: Clock
+    };
+    return {
+      Icon: mapIcon[f.icon as string] || LifeBuoy,
+      label: f.label,
+      desc: f.desc
+    } as FeatureItem;
+  });
+
+  const stats = t("stats", { returnObjects: true }) as { k: string; v: string }[];
+
   return (
     <section className="mt-20">
-      {/* Variantă mai luminoasă, în linie cu restul site-ului (similar hero-urilor existente) */}
       <div className="relative rounded-3xl bg-gradient-to-br from-blue-50 via-white to-white px-6 md:px-10 py-14 md:py-16 ring-1 ring-blue-100 overflow-hidden">
-        {/* Accent decor subtil */}
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -top-10 -right-10 w-64 h-64 bg-blue-200/30 rounded-full blur-3xl" />
           <div className="absolute bottom-0 -left-16 w-72 h-72 bg-indigo-200/30 rounded-full blur-3xl" />
@@ -38,12 +48,11 @@ const OptimizationSection: React.FC = () => {
 
         <div className="relative max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Media */}
             <div className="order-last md:order-first">
               <div className="rounded-2xl overflow-hidden ring-1 ring-blue-100 shadow-sm bg-white">
                 <img
                   src={tabletaImg}
-                  alt="Dashboard operațional PetroSol pentru optimizare"
+                  alt={t("imageAlt")}
                   className="w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -51,17 +60,15 @@ const OptimizationSection: React.FC = () => {
               </div>
             </div>
 
-            {/* Text */}
             <div>
               <div className="inline-flex items-center gap-2 rounded-full bg-blue-100 text-blue-700 px-3 py-1 text-[11px] font-medium ring-1 ring-blue-200">
-                Optimizare operațiuni
+                {t("badge")}
               </div>
               <h2 className="mt-4 text-3xl md:text-4xl font-bold leading-tight text-gray-900">
-                Optimizează-ți operațiunile astăzi
+                {t("title")}
               </h2>
               <p className="mt-4 text-sm md:text-base text-gray-700 leading-relaxed max-w-prose">
-                Implementare rapidă, scalare sigură și suport continuu. Eliminăm pași manuali,
-                unificăm datele și îți oferim vizibilitate în timp real pentru decizii mai bune.
+                {t("intro")}
               </p>
 
               <div className="mt-7 grid grid-cols-2 gap-4">
@@ -87,36 +94,33 @@ const OptimizationSection: React.FC = () => {
                 <a
                   href="/contact"
                   className="inline-flex items-center gap-2 rounded-xl bg-blue-600 text-white px-5 py-3 text-sm font-medium hover:bg-blue-700 transition"
+                  aria-label={t("cta.contactAria")}
                 >
-                  Contactează-ne 
+                  {t("cta.contact")}
                   <ArrowRight className="w-4 h-4" />
                 </a>
                 <a
                   href="tel:+40738100070"
                   className="inline-flex items-center gap-2 rounded-xl bg-white text-blue-700 px-5 py-3 text-sm font-medium ring-1 ring-blue-200 hover:bg-blue-50 transition"
+                  aria-label={t("cta.callAria")}
                 >
-                  Sună acum
+                  {t("cta.call")}
                 </a>
               </div>
             </div>
           </div>
 
-            {/* Statistici */}
-            <div className="mt-12 grid gap-4 sm:grid-cols-3">
-              {[
-                { k: "1 zi", v: "Implementare pilot" },
-                { k: "24/7", v: "Suport tehnic" },
-                { k: "1000+", v: "Integrări realizate" }
-              ].map(stat => (
-                <div
-                  key={stat.v}
-                  className="rounded-xl bg-white ring-1 ring-gray-200 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
-                >
-                  <span className="text-lg font-semibold text-gray-900">{stat.k}</span>
-                  <span className="text-xs tracking-wide text-gray-600">{stat.v}</span>
-                </div>
-              ))}
-            </div>
+          <div className="mt-12 grid gap-4 sm:grid-cols-3">
+            {stats.map(stat => (
+              <div
+                key={stat.v + stat.k}
+                className="rounded-xl bg-white ring-1 ring-gray-200 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
+              >
+                <span className="text-lg font-semibold text-gray-900">{stat.k}</span>
+                <span className="text-xs tracking-wide text-gray-600">{stat.v}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "solutions": "Soluții",
+    "about": "Despre noi",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1_title": "Soluții IT Complete pentru Industria Petrolieră",
+    "slide1_desc": "Transformăm operațiunile cu tehnologie de ultimă generație.",
+    "slide2_title": "Automatizare și Integrare",
+    "slide2_desc": "Procese unite, date centralizate, control deplin.",
+    "slide3_title": "Performanță și Scalabilitate",
+    "slide3_desc": "Platformă flexibilă pentru creștere sigură.",
+    "cta": "Descoperă soluțiile noastre",
+    "indicator": "Mergi la slide {{index}}"
+  },
+  "partners.title": "Partenerii noștri",
+  "mobileNav": {
+    "home": "Acasă",
+    "solutions": "Soluții",
+    "about": "Despre noi",
+    "contact": "Contact",
+    "call": "Sună acum"
+  },
+  "footer": {
+    "tagline": "Soluții IT complete pentru industria petrolieră și nu numai.",
+    "contactTitle": "Contact",
+    "infoTitle": "Informații",
+    "about": "Despre noi",
+    "solutions": "Soluțiile noastre",
+    "privacy": "Politica de confidențialitate",
+    "close": "Închide",
+    "rights": "Toate drepturile rezervate.",
+    "privacyTitle": "Prelucrarea datelor cu caracter personal - Nota de informare"
+  },
+  "header": {
+    "logoAlt": "Siglă PetroSol",
+    "homeAria": "Pagina principală PetroSol",
+    "toggleLocaleAria": "Schimbă limba ({{lang}})",
+    "solutions": [
+      { "name": "Stații de alimentare", "path": "service-stations", "description": "Optimizăm funcționarea stațiilor de alimentare." },
+      { "name": "Autoservire", "path": "unattended", "description": "Sisteme de autoservire eficiente." },
+      { "name": "CRT industrial", "path": "industrial-crt", "description": "Tehnologie CRT robustă." },
+      { "name": "Retail tradițional", "path": "traditional-retail", "description": "Interfețe familiare și rapide." },
+      { "name": "Plăți", "path": "payment", "description": "Platforme de plată securizate." },
+      { "name": "Soluții personalizate", "path": "custom-solutions", "description": "Aplicații adaptate afacerii tale." },
+      { "name": "Inteligență artificială", "path": "ai", "description": "Analiză avansată și automatizare inteligentă." }
+    ]
+  }
+}

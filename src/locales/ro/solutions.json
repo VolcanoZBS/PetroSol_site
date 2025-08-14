@@ -1,0 +1,556 @@
+{
+  "heading": "Soluții PetroSol",
+  "subheading": "Alege soluția potrivită pentru operațiunile tale",
+  "cta": "Vezi detalii",
+  "cardAria": "Vezi soluția: {{name}}",
+  "list": [
+    {
+      "name": "Stații Distribuție Carburanți",
+      "path": "service-stations",
+      "imageUrl": "/images/service-station.webp",
+      "description": "Optimizăm funcționarea stațiilor de alimentare cu soluții integrate și suport 24/7.",
+      "accent": "from-blue-600 to-blue-500",
+      "tag": "Retail Fuel"
+    },
+    {
+      "name": "Stații Nesupravegheate (Unattended)",
+      "path": "unattended",
+      "imageUrl": "/images/unattended.webp",
+      "description": "Stații nesupravegheate 24/7: plăți, identificare, autorizare pompă, monitorizare.",
+      "accent": "from-emerald-600 to-emerald-500",
+      "tag": "24/7"
+    },
+    {
+      "name": "Distribuție En-Gros & Industrial (CRT)",
+      "path": "industrial-crt",
+      "imageUrl": "/images/industrial-crt.webp",
+      "description": "Distribuție en-gros și industrială: contracte, rute, POD, facturare automată.",
+      "accent": "from-indigo-600 to-indigo-500",
+      "tag": "B2B"
+    },
+    {
+      "name": "Retail Tradițional",
+      "path": "traditional-retail",
+      "imageUrl": "/images/traditional-retail.webp",
+      "description": "Soluții POS pentru retail și HoReCa cu integrare rapidă și stabilitate.",
+      "accent": "from-amber-600 to-amber-500",
+      "tag": "POS"
+    },
+    {
+      "name": "Plăți",
+      "path": "payment",
+      "imageUrl": "/images/payment.webp",
+      "description": "Procesare plăți EMV/contactless și reconciliere sigură.",
+      "accent": "from-purple-600 to-purple-500",
+      "tag": "Payments"
+    },
+    {
+      "name": "Soluții Personalizate",
+      "path": "custom-solutions",
+      "imageUrl": "/images/custom-solutions.webp",
+      "description": "Aplicații și integrare personalizată pentru procesele tale.",
+      "accent": "from-pink-600 to-pink-500",
+      "tag": "Custom"
+    },
+    {
+      "name": "Inteligență Artificială",
+      "path": "ai",
+      "imageUrl": "/images/ai.webp",
+      "description": "Analiză predictivă, automatizare și insight-uri pentru operațiuni.",
+      "accent": "from-cyan-600 to-cyan-500",
+      "tag": "AI"
+    }
+  ],
+  "ai": {
+    "hero": {
+      "badge": "Soluție Avansată",
+      "title": "Inteligență Artificială & Analiză Predictivă",
+      "text": "Modele ML pentru prognoză consum, optimizare stoc, detectare anomalii și recomandări operaționale. Colectăm, curățăm și consolidăm date multi‑sursă pentru insight-uri acționabile și decizii rapide.",
+      "primaryCta": "Programează un demo",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Analiză avansată susținută de AI"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce livrăm prin AI & Advanced Analytics",
+      "subtitle": "Pipeline complet: date brute → insight → acțiune măsurabilă.",
+      "features": [
+        { "icon": "predictive", "title": "Modele predictive", "desc": "Prognoză consum carburanți, volum vânzări, cerere sezonieră." },
+        { "icon": "kpi", "title": "Dashboards KPI", "desc": "Indicatori operaționali, marjă, rotație stoc, latențe flux." },
+        { "icon": "anomaly", "title": "Detectare anomalii", "desc": "Identifică tranzacții suspecte, pierderi, pattern-uri atipice." },
+        { "icon": "stock", "title": "Optimizare stoc", "desc": "Niveluri recomandate + alerte proactive de reaprovizionare." },
+        { "icon": "realtime", "title": "Decizii în timp real", "desc": "Stream processing & acțiuni automate pe reguli și scor ML." },
+        { "icon": "experiment", "title": "Experimentare", "desc": "A/B test pe promoții, preț dinamic și parametri operaționali." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flux",
+      "title": "Cum circulă datele",
+      "steps": [
+        "Ingest: colectăm date din POS, pompe, ATG, ERP, plăți, telemetrie.",
+        "Curățare & normalizare: mapare câmpuri, eliminare outliers, enrichment.",
+        "Stocare: data lake + zone modelate pentru rapoarte și modele ML.",
+        "Modelare: antrenare, evaluare, versionare modele și deployment.",
+        "Servire: API scoring, rule engine, notificări & dashboards.",
+        "Îmbunătățire: feedback, drift detection, retraining programat."
+      ]
+    },
+    "architecture": {
+      "eyebrow": "Arhitectură",
+      "title": "Piese componente",
+      "blocks": [
+        { "icon": "ingest", "title": "Strat ingest", "desc": "Conectori ETL/ELT, streaming, batching configurabil." },
+        { "icon": "storage", "title": "Data lake & mart", "desc": "Zone raw / curated / serving pentru acces controlat." },
+        { "icon": "serving", "title": "Model serving", "desc": "API scoring, caching, rolling updates și observabilitate." }
+      ]
+    },
+    "security": {
+      "eyebrow": "Conformitate",
+      "title": "Securitate & governance",
+      "blocks": [
+        { "icon": "protection", "title": "Protecție date", "desc": "Criptare tranzit & repaus, control granular acces." },
+        { "icon": "versioning", "title": "Versionare modele", "desc": "Tracking performanță, rollback rapid, drift alerts." },
+        { "icon": "audit", "title": "Audit & trasabilitate", "desc": "Log evenimente, explicații scor (feature attributions)." }
+      ]
+    },
+    "cta": {
+      "title": "Vrei decizii mai rapide bazate pe date?",
+      "text": "Îți arătăm un demo cu modele, dashboard și flux operativ.",
+      "primary": "Cere un demo",
+      "secondary": "Sună acum"
+    }
+  },
+  "custom": {
+    "hero": {
+      "badge": "Soluție Personalizată",
+      "title": "Soluții Software Personalizate",
+      "text": "Proiectăm și livrăm aplicații adaptate proceselor tale: integrare cu sisteme existente, scalare sigură, automatizare și raportare clară. De la analiză la mentenanță - acoperim întregul ciclu de viață.",
+      "primaryCta": "Discută proiectul",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Echipă dezvoltând soluții software personalizate"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce putem construi pentru tine",
+      "subtitle": "Abordare modulară pentru viteză, calitate și adaptare continuă.",
+      "features": [
+        { "icon": "code", "title": "Aplicații Web & Desktop", "desc": "SPA, portaluri operaționale, dashboard-uri și instrumente interne performante." },
+        { "icon": "integration", "title": "Integrări ERP/CRM", "desc": "Sincronizare entități, tranzacții, documente fiscale și schimb de date automat." },
+        { "icon": "api", "title": "API & Microservicii", "desc": "Arhitecturi scalabile, REST/GraphQL, versionare și observability." },
+        { "icon": "ux", "title": "UX orientat pe procese", "desc": "Fluxuri clare, reducere clicuri, adoptare rapidă și training minim." },
+        { "icon": "security", "title": "Securitate integrată", "desc": "Auth, RBAC, audit, criptare și politici conforme (ISO/27001 best practices)." },
+        { "icon": "maintenance", "title": "Mentenanță & Evoluție", "desc": "Roadmap, backlog grooming, patching, refactoring incremental." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Proces",
+      "title": "Cum lucrăm",
+      "steps": [
+        "Analiză & modelare: mapare procese, obiective și riscuri.",
+        "Arhitectură & design: module, API, securitate, fluxuri UX.",
+        "Implementare incrementală: sprinturi scurte + feedback rapid.",
+        "Testare automată & QA: unit, integrare, performanță, securitate.",
+        "Livrare & observabilitate: deploy, loguri, monitorizare, alerte.",
+        "Îmbunătățire continuă: roadmap, optimizări și scaling."
+      ]
+    },
+    "value": {
+      "eyebrow": "Valoare",
+      "title": "De ce abordarea noastră",
+      "blocks": [
+        { "icon": "modularity", "title": "Modularitate", "desc": "Extinzi sau înlocuiești componente fără riscuri majore." },
+        { "icon": "cleanIntegration", "title": "Integrare curată", "desc": "API resilient + mapping clar al datelor critice." },
+        { "icon": "automation", "title": "Automatizare", "desc": "Elimină pașii manuali și erorile operaționale." },
+        { "icon": "speed", "title": "Time-to-Value rapid", "desc": "MVP în câteva săptămâni, nu luni." },
+        { "icon": "safety", "title": "Siguranță", "desc": "Politici de acces, audit trail, monitorizare." },
+        { "icon": "scalability", "title": "Scalabilitate", "desc": "Arhitectură pregătită pentru volum și extindere." }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Tech",
+      "title": "Stack & platforme",
+      "categories": [
+        { "title": "Frontend", "items": ["React / Next.js", "TypeScript", "Tailwind & Component Kits", "PWA & Offline"] },
+        { "title": "Backend & Data", "items": ["Node.js / .NET", "Microservicii & Event Bus", "SQL / PostgreSQL / Redis", "REST & GraphQL"] },
+        { "title": "DevOps & Observabilitate", "items": ["Docker / K8s", "CI/CD automat", "Logging & tracing", "Alerting & SLA"] }
+      ]
+    },
+    "cta": {
+      "title": "Gata să începem dezvoltarea soluției tale?",
+      "text": "Trimite-ne contextul și revenim cu o propunere inițială.",
+      "primary": "Contactează-ne",
+      "secondary": "Sună acum"
+    }
+  },
+  "industrial": {
+    "hero": {
+      "badge": "Soluție PetroSol",
+      "title": "Distribuție En-Gros & Industrial (CRT)",
+      "text": "Gestionăm cap-coadă livrările de carburanți pentru clienți industriali: contracte și liste de preț, limite de credit, planificare rute, telemetrie cisterne, confirmare livrare și facturare automată - integrate cu ERP și e-Factura.",
+      "primaryCta": "Discută cu un consultant",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Operațiuni en-gros și industriale cu management CRT"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce include soluția PetroSol pentru en-gros și industrial",
+      "subtitle": "Automatizare operațională, trasabilitate și control financiar - de la contract până la încasare.",
+      "features": [
+        { "icon": "contracts", "title": "Contracte & prețuri", "desc": "Liste de preț pe client, clauze, indexări, taxes/discounts, valabilități și limite de credit." },
+        { "icon": "planning", "title": "Planificare livrări", "desc": "Comenzi, încărcare cisternă, sloturi terminal, trasee și alocare șofer/vehicul." },
+        { "icon": "routes", "title": "Rute & execuție", "desc": "Navigație, check-in geo, timpi, dovezi foto și semnătură/OTP pentru predare (POD)." },
+        { "icon": "telemetry", "title": "Telemetrie & măsurători", "desc": "Debimetre, sonde în rezervor (ATG), temperatură; reconciliere cantități la încărcare/descărcare." },
+        { "icon": "invoicing", "title": "Facturare & e-Factura", "desc": "Calcul automat pe contract, accize/taxe, generare facturi și trimitere ANAF." },
+        { "icon": "erp", "title": "Integrare ERP", "desc": "Sincronizare parteneri, articole, comenzi, facturi; API deschis pentru sisteme terțe." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flux",
+      "title": "Cum funcționează",
+      "steps": [
+        "Definești contractul, lista de preț și limitele (credit, volum).",
+        "Primești comanda clientului și planifici traseul și slotul de încărcare.",
+        "Se încarcă cisterna; datele de cantitate/temperatură se preiau automat.",
+        "Livrarea se execută; se colectează POD (semnătură/OTP/foto) și coordonate.",
+        "Se reconciliază cantitățile și se emite factura; datele merg în ERP și e-Factura."
+      ]
+    },
+    "components": {
+      "eyebrow": "Componente",
+      "title": "Ce suportăm",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & integrare",
+      "hardware": [
+        "Debimetre/contori certificați și sonde ATG în rezervor",
+        "GPS/telematică pentru flote și senzori de siguranță",
+        "Terminal mobil șofer cu aplicație POD (foto/semnătură/OTP)",
+        "Imprimantă mobilă (bon/CMR) - opțional",
+        "Coduri de bare/RFID la punctele de descărcare - opțional"
+      ],
+      "software": [
+        "Contracte, liste de preț și politici de taxare",
+        "Comenzi, dispecerizare și optimizare trasee",
+        "POD digital, foto și documente atașate livrării",
+        "Facturare automată și e-Factura (ANAF)",
+        "Integrare ERP/contabilitate și portal clienți"
+      ]
+    },
+    "security": {
+      "eyebrow": "Siguranță",
+      "title": "Securitate & conformitate",
+      "points": [
+        "Control acces pe roluri, audit trail și criptare în tranzit/repous.",
+        "Politici de retenție date și alerte la abateri operaționale.",
+        "Procese aliniate la ISO 9001 și ISO/IEC 27001."
+      ]
+    },
+    "cta": {
+      "title": "Ești gata să digitalizezi distribuția en-gros?",
+      "text": "Îți arătăm cum automatizăm contractele, rutele și facturarea.",
+      "primary": "Contactează-ne",
+      "secondary": "Sună acum"
+    }
+  },
+  "payment": {
+    "hero": {
+      "badge": "Soluție PetroSol",
+      "title": "Plăți & Soluții de Checkout",
+      "text": "Acceptare card bancar (EMV, contactless), portofele digitale, card flotă și plăți recurente – cu reconciliere automată, raportare unificată și conformitate PCI. Optimizăm timpul la POS și transparența financiară.",
+      "primaryCta": "Cere o discuție",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Terminal și soluții de plată integrate"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce oferă platforma de plăți",
+      "subtitle": "Unificare metode, flux sigur, vizibilitate financiară end‑to‑end.",
+      "features": [
+        { "icon": "multiMethod", "title": "Acceptare multi‑metodă", "desc": "EMV chip, contactless, NFC, card flotă, card cadou, split tender." },
+        { "icon": "wallets", "title": "Portofele digitale", "desc": "Apple Pay, Google Pay și tokenizare sigură pentru plăți rapide." },
+        { "icon": "recurring", "title": "Recurente & pre‑autorizări", "desc": "Reținere sumă, confirmare livrare, captură finală și abonamente." },
+        { "icon": "reconciliation", "title": "Reconciliere automată", "desc": "Aliniază tranzacțiile terminal, procesator și contabilitate." },
+        { "icon": "multiLocation", "title": "Multi‑locație", "desc": "Politici centralizate, rapoarte consolidate și excepții marcate." },
+        { "icon": "scaling", "title": "Scalare rapidă", "desc": "Onboarding rapid pentru noi locații și evoluție metode viitoare." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flux",
+      "title": "Cum decurge o tranzacție",
+      "steps": [
+        "Inițiere plată la POS / terminal (valoare + tip).",
+        "Autentificare card / token + verificări risc.",
+        "Autorizare procesator / bancă emitentă.",
+        "Emitere bon fiscal & jurnalizare eveniment.",
+        "Transmitere date în backoffice și reconciliere.",
+        "Rapoarte și alerte asupra anomaliilor."
+      ]
+    },
+    "components": {
+      "eyebrow": "Componente",
+      "title": "Hardware & integrare",
+      "hardwareTitle": "Hardware suportat",
+      "softwareTitle": "Software & API",
+      "hardware": [
+        "Terminale POS EMV/contactless",
+        "PIN pad securizat",
+        "Imprimantă fiscală / bon",
+        "Dispozitiv mobil pentru plată în teren",
+        "Cititor card flotă / fidelitate"
+      ],
+      "software": [
+        "Tokenizare & vault card",
+        "Reconciliere și export contabil",
+        "Integrare ERP / e-Factura",
+        "Portal dispute și chargeback",
+        "Webhook-uri & raportare JSON"
+      ]
+    },
+    "security": {
+      "eyebrow": "Conformitate",
+      "title": "Securitate & protecție",
+      "blocks": [
+        { "icon": "pci", "title": "PCI & criptare", "desc": "Criptare end‑to‑end și proceduri aliniate PCI DSS." },
+        { "icon": "fraud", "title": "Fraud & risc", "desc": "Reguli velocity, liste albe/negre și scoring tranzacții." },
+        { "icon": "uptime", "title": "Uptime & monitorizare", "desc": "Health checks, alerte proactive și fallback offline." }
+      ]
+    },
+    "cta": {
+      "title": "Vrei plăți mai rapide și reconciliere fără erori?",
+      "text": "Îți arătăm cum stabilizăm fluxul și reducem timpii de închidere.",
+      "primary": "Programează un demo",
+      "secondary": "Sună acum"
+    }
+  },
+  "stations": {
+    "hero": {
+      "badge": "Soluție PetroSol",
+      "title": "Soluții pentru Stații de Carburanți",
+      "text": "Platformă unificată care conectează pompe, ATG, POS, plăți, stocuri și raportare în timp real. Operare stabilă, control centralizat, decizii bazate pe date.",
+      "primaryCta": "Solicită un demo",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Platformă PetroSol pentru operarea unei stații de carburant"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce acoperă soluția",
+      "subtitle": "Flux complet: pompă → tranzacție → stoc → raport → analiză performanță.",
+      "features": [
+        { "icon": "stock", "title": "Gestionare stoc & ATG", "desc": "Sincronizare niveluri, temperatură, densitate; reconcilieri și alerte pierderi." },
+        { "icon": "pump", "title": "Monitorizare pompe", "desc": "Status duze, debit, tranzacții live, blocare/deblocare și jurnal evenimente." },
+        { "icon": "pos", "title": "Integrare POS & plăți", "desc": "Card flotă, EMV/contactless, bon fiscal, e‑Factura și split tender." },
+        { "icon": "reporting", "title": "Raportare & KPI", "desc": "Marjă, litri vs. vânzare, shrinkage, viteză tranzacție, comparativ locații." },
+        { "icon": "staff", "title": "Management personal", "desc": "Ture, permisiuni rol, audit acțiuni critice, productivitate / oră." },
+        { "icon": "compliance", "title": "Conformitate & securitate", "desc": "Controale acces, log, backup, criptare date și politici automate." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flux",
+      "title": "Cum se desfășoară o zi standard",
+      "steps": [
+        "Deschidere stație: verificări pompă, ATG, niveluri inițiale.",
+        "Aprovizionare tank: recepție + reconcilieri volum / temperatură.",
+        "Tranzacții & plăți: POS sincron, promoții și card flotă.",
+        "Monitorizare continuă: alerte scurgeri, pierderi, duze inactive.",
+        "Raportare perioadică: litri vs. stoc, marjă, diferențe tehnice.",
+        "Închidere zi: reconciliere automată și push rapoarte către management."
+      ]
+    },
+    "value": {
+      "eyebrow": "Valoare",
+      "title": "Beneficii business",
+      "benefits": [
+        { "icon": "loss", "title": "Reducerea pierderilor", "desc": "Comparare consum vs. stoc real, anomalii și diferențe tehnice explicate." },
+        { "icon": "efficiency", "title": "Eficiență operațională", "desc": "Automatizări pentru inventar, raportare, reconcilieri și alerte." },
+        { "icon": "visibility", "title": "Vizibilitate completă", "desc": "Date unificate într-un dashboard clar, acces remote securizat." },
+        { "icon": "governance", "title": "Conformitate", "desc": "Jurnale automate, export autorități și arhivare sigură." },
+        { "icon": "scalability", "title": "Scalabilitate", "desc": "Adaugi rapid noi stații; template centralizat pentru configurări." },
+        { "icon": "roi", "title": "ROI accelerat", "desc": "Reduci costurile administrative și optimizezi rotația produsului." }
+      ]
+    },
+    "components": {
+      "eyebrow": "Tehnic",
+      "title": "Componente & integrare",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & platformă",
+      "advancedTitle": "Avansat & analitică",
+      "hardware": [
+        "Pompe multi-brand",
+        "Sisteme ATG & sondă tank",
+        "Terminale POS & pin pad",
+        "Cititoare card flotă",
+        "Camere & senzori siguranță"
+      ],
+      "software": [
+        "Web backoffice responsiv",
+        "App mobil management",
+        "API integrare externă",
+        "Alerting & log centralizat",
+        "Backup + DR automat"
+      ],
+      "advanced": [
+        "Forecast consum / stoc",
+        "Detectare pierderi",
+        "Comparativ multi-locație",
+        "Raport marjă dinamică",
+        "Integrare BI extern"
+      ]
+    },
+    "reliability": {
+      "eyebrow": "Siguranță",
+      "title": "Reziliență & monitorizare",
+      "features": [
+        { "icon": "cloud", "title": "Redundanță cloud", "desc": "Replicare și fallback automat; uptime ridicat și recuperare rapidă." },
+        { "icon": "alerts", "title": "Alerte proactive", "desc": "Anomalii debit, diferențe volum, timp tranzacție, temperatură tank." },
+        { "icon": "maintenance", "title": "Mentenanță asistată", "desc": "Jurnal echipamente, istoric intervenții și recomandări service." },
+        { "icon": "automation", "title": "Automatizare", "desc": "Reguli pentru reacție instant la condiții operaționale." },
+        { "icon": "modular", "title": "Arhitectură modulară", "desc": "Extinzi fără re-scriere masivă; adaptare rapidă la noi modele." },
+        { "icon": "performance", "title": "Performanță", "desc": "Răspuns rapid pentru operații critice și încărcare scalabilă." }
+      ]
+    },
+    "cta": {
+      "title": "Optimizează operațiunile stațiilor tale cu PetroSol",
+      "text": "Îți arătăm live monitorizare pompe, stocuri și raportare consolidată.",
+      "primary": "Programează un demo",
+      "secondary": "Sună acum"
+    }
+  },
+  "retail": {
+    "hero": {
+      "badge": "Soluție PetroSol",
+      "title": "Retail Tradițional & HoReCa",
+      "text": "Platformă unificată pentru POS, stocuri, fidelizare și analiză vânzări. Optimizăm rotația produselor, marjele și experiența clienților prin integrare sigură cu plăți, gestiune centralizată și rapoarte în timp real.",
+      "primaryCta": "Cere o prezentare",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Soluție POS și gestiune pentru retail & HoReCa"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce include soluția",
+      "subtitle": "Fluxuri operaționale integrate pentru magazine, restaurante și rețele multi‑site.",
+      "features": [
+        { "icon": "pos", "title": "POS stabil & rapid", "desc": "Vânzare asistată, mod touch, produse compuse, anulări controlate și sincronizare offline." },
+        { "icon": "stock", "title": "Gestiune stocuri", "desc": "Rețete, transferuri, inventare, loturi, ajustări și trasabilitate pe locații." },
+        { "icon": "customer", "title": "Profil clienți", "desc": "Istoric tranzacții, preferințe și segmentare pentru campanii relevante." },
+        { "icon": "promo", "title": "Promo & fidelizare", "desc": "Discounturi condiționate, puncte, cupoane, card fidelitate și campanii multi‑site." },
+        { "icon": "fiscal", "title": "Fiscal & conform", "desc": "Integrare cu case fiscale, e‑Factura, raportare zilnică și jurnal audit." },
+        { "icon": "mobile", "title": "Acces mobil", "desc": "Dashboard KPI, stoc critic, vânzări realtime și notificări manageriale." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flux",
+      "title": "Cum funcționează la nivel de zi",
+      "steps": [
+        "Aprovizionare și recepție mărfuri cu verificări și etichetare.",
+        "Configurare produse, rețete, categorii și liste promo.",
+        "Vânzare la POS / tabletă; promoțiile se aplică automat.",
+        "Actualizare stocuri și marje; alerte la stoc minim / rupere stoc.",
+        "Sincronizare date centrală, rapoarte și KPIs în dashboard.",
+        "Analiză vânzări + ajustare promo/rețete pentru optimizare marjă."
+      ]
+    },
+    "components": {
+      "eyebrow": "Componente",
+      "title": "Ce suportăm & integrăm",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & integrare",
+      "hardware": [
+        "POS touchscreen & imprimantă fiscală",
+        "Cititor coduri de bare 1D/2D",
+        "Sertar de bani și afișaj client",
+        "Terminal plăți EMV/contactless",
+        "Tabletă mobilă pentru comenzile din sală"
+      ],
+      "software": [
+        "Backoffice multi‑unitate & roluri",
+        "Rețete, cost rețetă și marjă dinamică",
+        "Promo engine + card fidelitate",
+        "Integrare ERP / contabilitate",
+        "Dashboard KPI & export BI"
+      ]
+    },
+    "analytics": {
+      "eyebrow": "Analiză",
+      "title": "Decizii bazate pe date",
+      "cards": [
+        { "icon": "kpi", "title": "KPI în timp real", "desc": "Vânzări, tichete medii, rotație produse și shrinkage." },
+        { "icon": "supply", "title": "Aprovizionare asistată", "desc": "Propuneri automate bazate pe consum și sezonalitate." },
+        { "icon": "control", "title": "Control & audit", "desc": "Drepturi pe rol, log acțiuni critice și alerte excepții." }
+      ]
+    },
+    "cta": {
+      "title": "Hai să optimizăm operațiunile tale de retail & HoReCa",
+      "text": "Îți arătăm fluxurile POS, gestiunea stocurilor și promovările dinamice.",
+      "primary": "Programează un demo",
+      "secondary": "Sună acum"
+    }
+  },
+  "unattended": {
+    "hero": {
+      "badge": "Soluție PetroSol",
+      "title": "Stații Nesupravegheate (Unattended)",
+      "text": "Operare 24/7 fără personal: identificare utilizator/vehicul, plată securizată, autorizare pompă, monitorizare în timp real și rapoarte automate. Integram hardware-ul din teren cu platforma software PetroSol pentru control și scalare.",
+      "primaryCta": "Programează un demo",
+      "secondaryCta": "Sună acum",
+      "imageAlt": "Stație nesupravegheată cu terminal de plată"
+    },
+    "capabilities": {
+      "eyebrow": "Capabilități",
+      "title": "Ce oferă soluția PetroSol",
+      "subtitle": "Tot ce ai nevoie pentru operare sigură și automată, 24/7.",
+      "features": [
+        { "icon": "payment", "title": "Plăți 24/7", "desc": "Card bancar, contactless (Apple/Google Pay) și card flotă cu reconciliere automată." },
+        { "icon": "identification", "title": "Identificare sigură", "desc": "RFID/PIN pentru șofer sau vehicul cu limite, benzi orare și reguli de consum." },
+        { "icon": "control", "title": "Control pompă & stoc", "desc": "Autorizare în timp real, blocare la excepții, nivel rezervoare și temperatură (ATG)." },
+        { "icon": "video", "title": "Supraveghere video", "desc": "Evenimente corelate cu imagini (start/stop, respingeri, alarme) pentru audit." },
+        { "icon": "integration", "title": "Integrare completă", "desc": "ERP, e-Factura, card flotă, telemetrie și raportare centralizată." },
+        { "icon": "monitoring", "title": "Monitorizare & alerte", "desc": "Echipamente, rețea, valori depășite – notificări în timp real." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Flux",
+      "title": "Cum funcționează",
+      "steps": [
+        "Utilizatorul se identifică (RFID/PIN/card) la terminal.",
+        "Se verifică drepturile și limitele și se autorizează pompa.",
+        "Alimentarea are loc și se colectează datele tranzacției.",
+        "Tranzacția se închide și se trimite către backend / ERP.",
+        "Rapoarte, alerte și imagini video se atașează evenimentelor."
+      ]
+    },
+    "components": {
+      "eyebrow": "Componente",
+      "title": "Ce suportăm",
+      "hardwareTitle": "Hardware",
+      "softwareTitle": "Software & integrare",
+      "hardware": [
+        "Terminal plată EMV/contactless",
+        "Cititor RFID / tastatură PIN",
+        "Controler pompe / ATG",
+        "Cameră IP corelare evenimente",
+        "Imprimantă bon/factură (opțional)"
+      ],
+      "software": [
+        "Portal administrare flote și limite",
+        "API & integrare ERP / e-Factura",
+        "Raportare centralizată multi-locație",
+        "Alarme și audit evenimente",
+        "Management utilizatori & roluri"
+      ]
+    },
+    "security": {
+      "eyebrow": "Siguranță",
+      "title": "Securitate & conformitate",
+      "points": [
+        "Criptare end‑to‑end a tranzacțiilor și jurnal de audit.",
+        "Control acces pe roluri, rotație chei/parole, alerte la abateri.",
+        "Procese aliniate la ISO 9001 și ISO/IEC 27001."
+      ]
+    },
+    "cta": {
+      "title": "Gata să treci la operare 24/7 fără personal?",
+      "text": "Îți arătăm fluxurile, integrarea și monitorizarea live.",
+      "primary": "Programează un demo",
+      "secondary": "Sună acum"
+    }
+  }
+}

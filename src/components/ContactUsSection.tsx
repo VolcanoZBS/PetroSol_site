@@ -1,7 +1,9 @@
 import { useRef, useState } from "react";
 import { Phone, Mail, MapPin, Calendar, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function ContactUsSection() {
+  const { t } = useTranslation("homepage", { keyPrefix: "contact" });
   const [form, setForm] = useState({
     name: "",
     company: "",
@@ -11,7 +13,7 @@ export default function ContactUsSection() {
     topic: "",
     message: "",
     consent: false,
-    website: "", // honeypot
+    website: "",
   });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const formRef = useRef<HTMLFormElement>(null);
@@ -55,16 +57,14 @@ export default function ContactUsSection() {
     <section id="contact" className="mt-16 md:mt-24 mb-16 scroll-mt-24">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-gray-900">Hai să discutăm</h2>
-          <p className="mt-2 text-gray-600">
-            Contactează-ne pentru informații suplimentare sau programează o demonstrație.
-          </p>
+          <h2 className="text-3xl font-bold text-gray-900">{t("title")}</h2>
+          <p className="mt-2 text-gray-600">{t("subtitle")}</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
           {/* Info card */}
           <div className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-6 self-start">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact direct</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">{t("direct.title")}</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-600" />
@@ -80,11 +80,11 @@ export default function ContactUsSection() {
               </li>
               <li className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-blue-600" />
-                <span className="text-gray-700">București, România</span>
+                <span className="text-gray-700">{t("direct.location")}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Calendar className="w-5 h-5 text-blue-600" />
-                <span className="text-gray-700">Luni-Vineri, 09:00-18:00</span>
+                <span className="text-gray-700">{t("direct.schedule")}</span>
               </li>
             </ul>
           </div>
@@ -95,16 +95,16 @@ export default function ContactUsSection() {
               <div className="mb-6 flex items-start gap-3 rounded-lg bg-emerald-50 text-emerald-800 p-4">
                 <CheckCircle2 className="w-5 h-5 mt-0.5" />
                 <div>
-                  <p className="font-medium">Mulțumim! Mesajul a fost trimis.</p>
-                  <p className="text-sm">Revenim în cel mai scurt timp.</p>
+                  <p className="font-medium">{t("alerts.success.title")}</p>
+                  <p className="text-sm">{t("alerts.success.text")}</p>
                 </div>
               </div>
             ) : status === "error" ? (
               <div className="mb-6 flex items-start gap-3 rounded-lg bg-red-50 text-red-700 p-4">
                 <AlertCircle className="w-5 h-5 mt-0.5" />
                 <div>
-                  <p className="font-medium">Te rugăm să completezi câmpurile obligatorii.</p>
-                  <p className="text-sm">Nume, Email, Mesaj și consimțământ.</p>
+                  <p className="font-medium">{t("alerts.error.title")}</p>
+                  <p className="text-sm">{t("alerts.error.text")}</p>
                 </div>
               </div>
             ) : null}
@@ -113,7 +113,7 @@ export default function ContactUsSection() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                    Nume
+                    {t("fields.name")}
                   </label>
                   <input
                     id="name"
@@ -126,7 +126,7 @@ export default function ContactUsSection() {
                 </div>
                 <div>
                   <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
-                    Companie
+                    {t("fields.company")}
                   </label>
                   <input
                     id="company"
@@ -141,7 +141,7 @@ export default function ContactUsSection() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email
+                    {t("fields.email")}
                   </label>
                   <input
                     id="email"
@@ -155,7 +155,7 @@ export default function ContactUsSection() {
                 </div>
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                    Telefon
+                    {t("fields.phone")}
                   </label>
                   <input
                     id="phone"
@@ -171,7 +171,7 @@ export default function ContactUsSection() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
                   <label htmlFor="topic" className="block text-sm font-medium text-gray-700 mb-1">
-                    Interesat de
+                    {t("fields.topic")}
                   </label>
                   <select
                     id="topic"
@@ -180,16 +180,16 @@ export default function ContactUsSection() {
                     onChange={onChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    <option value="">Alege...</option>
-                    <option value="retail">Retail (stații carburanți, HoReCa)</option>
-                    <option value="distributie">Distribuție carburanți / carduri flotă</option>
-                    <option value="industrial">Operațiuni industriale</option>
-                    <option value="alt">Alt subiect</option>
+                    <option value="">{t("topics.placeholder")}</option>
+                    <option value="retail">{t("topics.retail")}</option>
+                    <option value="distributie">{t("topics.distribution")}</option>
+                    <option value="industrial">{t("topics.industrial")}</option>
+                    <option value="alt">{t("topics.other")}</option>
                   </select>
                 </div>
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                    Subiect (opțional)
+                    {t("fields.subject")}
                   </label>
                   <input
                     id="subject"
@@ -203,7 +203,7 @@ export default function ContactUsSection() {
 
               <div className="mb-4">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Mesaj
+                  {t("fields.message")}
                 </label>
                 <textarea
                   id="message"
@@ -235,12 +235,12 @@ export default function ContactUsSection() {
                   onChange={onChange}
                   className="mt-1"
                 />
-                <span>Sunt de acord ca PetroSol să mă contacteze în legătură cu acest mesaj.</span>
+                <span>{t("consent")}</span>
               </label>
 
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500">
-                  sau scrie-ne la{" "}
+                  {t("altContact.before")}{" "}
                   <a className="text-blue-600 hover:text-blue-700" href="mailto:contact@petrosol.ro">
                     contact@petrosol.ro
                   </a>
@@ -252,10 +252,10 @@ export default function ContactUsSection() {
                 >
                   {status === "loading" ? (
                     <>
-                      <Loader2 className="w-4 h-4 mr-2 animate-spin" /> Trimitere...
+                      <Loader2 className="w-4 h-4 mr-2 animate-spin" /> {t("buttons.sending")}
                     </>
                   ) : (
-                    "Trimite mesaj"
+                    t("buttons.send")
                   )}
                 </button>
               </div>

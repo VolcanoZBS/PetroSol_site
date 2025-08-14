@@ -1,0 +1,183 @@
+{
+  "webSolution": {
+    "title": "Soluție Web-Based Avansată pentru Industria Petrolieră",
+    "description": "PetroSol Web oferă o interfață intuitivă și scalabilă care îți permite să gestionezi operațiunile de distribuție, inventar și vânzare în timp real, direct din browser.",
+    "features": [
+      "Acces 24/7 de pe orice dispozitiv - desktop, tabletă sau mobil",
+      "Actualizare instantanee în timp real a stocurilor și vânzărilor",
+      "Panou de control personalizat și rapoarte detaliate",
+      "Integrare securizată cu sisteme ERP și POS existente"
+    ],
+    "imageAlt": "Interfață PetroSol Web"
+  },
+  "valueProp": {
+    "header": {
+      "title": { "before": "De ce", "brand": "PetroSol" },
+      "subtitle": "Platforme software pentru distribuție carburanți, retail și operațiuni industriale - cu rezultate măsurabile, nu doar promisiuni."
+    },
+    "pillars": [
+      {
+        "title": "Operațiuni eficiente",
+        "desc": "Automatizăm procese cheie (stocuri, trasabilitate, prețuri, rapoarte) pentru timpi mai mici și erori reduse."
+      },
+      {
+        "title": "Conformitate & securitate",
+        "desc": "Respectăm standardele ISO 9001 și ISO/IEC 27001 și bune practici fiscale/ANAF pentru audit fără emoții."
+      },
+      {
+        "title": "Integrare rapidă",
+        "desc": "Conectăm case fiscale, pompe, ERP/contabilitate, e-Factura și sisteme terțe - fără întreruperi."
+      }
+    ],
+    "metrics": [
+      { "kpi": "800+", "label": "stații care funcționează pe PetroSol" },
+      { "kpi": "100+", "label": "integrări e-Factura" },
+      { "kpi": "50+", "label": "companii care folosesc carduri de flotă" },
+      { "kpi": "24/7", "label": "asistență tehnică dedicată" }
+    ],
+    "certifications": {
+      "title": "Certificări & standarde",
+      "items": [
+        "ISO 9001:2015 — Managementul calității",
+        "ISO/IEC 27001 — Securitatea informației"
+      ]
+    },
+    "caseStudy": {
+      "title": "Studiu de caz: rețea stații carburanți",
+      "text": "Implementare în 26 de locații cu sincronizare centralizată, e-Factura și raportare zilnică. Reducere 35% a timpului de închidere lunară.",
+      "linkLabel": "Citește studiul →",
+      "linkHref": "/studii-de-caz/retea-statii"
+    },
+    "demo": {
+      "title": "Vrei să vezi produsul în acțiune?",
+      "text": "Programează o demonstrație de 30 de minute cu echipa PetroSol.",
+      "cta": "Programează un demo"
+    }
+  },
+  "solutions": {
+    "heading": "Soluții Pentru:",
+    "cta": "Află mai multe",
+    "ctaAria": "Vezi soluția: {{title}}",
+    "list": [
+      {
+        "title": "Stații Distribuție Carburanți",
+        "desc": "Optimizăm funcționarea stațiilor de alimentare.",
+        "accent": "from-blue-600 to-blue-500",
+        "path": "service-stations"
+      },
+      {
+        "title": "Unattended (Autoservire)",
+        "desc": "Sisteme de autoservire eficiente.",
+        "accent": "from-amber-600 to-amber-500",
+        "path": "unattended"
+      },
+      {
+        "title": "Industrial CRT",
+        "desc": "Tehnologie CRT robustă.",
+        "accent": "from-pink-600 to-pink-500",
+        "path": "industrial-crt"
+      },
+      {
+        "title": "Retail și Restaurante",
+        "desc": "Sisteme integrate pentru retail și HoReCa.",
+        "accent": "from-green-600 to-green-500",
+        "path": "traditional-retail"
+      },
+      {
+        "title": "Plăți",
+        "desc": "Platforme de plată securizate.",
+        "accent": "from-purple-600 to-purple-500",
+        "path": "payment"
+      },
+      {
+        "title": "Soluții personalizate",
+        "desc": "Aplicații personalizate pentru afacerea ta.",
+        "accent": "from-indigo-600 to-indigo-500",
+        "path": "custom-solutions"
+      },
+      {
+        "title": "AI",
+        "desc": "Analiză avansată și automatizare inteligentă.",
+        "accent": "from-cyan-600 to-cyan-500",
+        "path": "ai"
+      }
+    ]
+  },
+  "customers": {
+    "heading": { "before": "Clienții", "highlight": "Noștri" },
+    "subheading": "Suntem mândri să sprijinim un portofoliu divers de companii de top, ajutându-le să își optimizeze operațiunile și să atingă succesul prin soluțiile și software-ul nostru inovator.",
+    "badge": "Încredere & scalare",
+    "ctaBlock": {
+      "title": "Alătură-te companiilor care și-au optimizat operațiunile cu PetroSol",
+      "text": "Vorbește cu noi și află rapid dacă soluțiile noastre se potrivesc fluxurilor tale.",
+      "button": "Contactează-ne",
+      "buttonAria": "Contact PetroSol"
+    },
+    "metrics": [
+      { "label": "Stații", "value": "800+" },
+      { "label": "Integrări", "value": "1000+" },
+      { "label": "Suport", "value": "24/7" }
+    ],
+    "response": {
+      "time": "Răspundem în",
+      "value": "sub 1 zi lucrătoare"
+    }
+  },
+  "optimization": {
+    "badge": "Optimizare operațiuni",
+    "title": "Optimizează-ți operațiunile astăzi",
+    "intro": "Implementare rapidă, scalare sigură și suport continuu. Eliminăm pași manuali, unificăm datele și îți oferim vizibilitate în timp real pentru decizii mai bune.",
+    "imageAlt": "Dashboard operațional PetroSol pentru optimizare",
+    "features": [
+      { "icon": "support", "label": "Suport 24/7", "desc": "Echipă tehnică disponibilă permanent." },
+      { "icon": "customize", "label": "Personalizare", "desc": "Adaptare rapidă la procesele tale." },
+      { "icon": "training", "label": "Training nelimitat", "desc": "Onboarding continuu pentru echipă." },
+      { "icon": "fastImpl", "label": "Implementare rapidă", "desc": "Go-live în 1 zi pentru modulele cheie." },
+      { "icon": "growth", "label": "Creștere profit", "desc": "Optimizare marjă & rotație stoc." },
+      { "icon": "time", "label": "Timp operare redus", "desc": "Automatizare task-uri repetitive." }
+    ],
+    "cta": {
+      "contact": "Contactează-ne",
+      "contactAria": "Contact PetroSol",
+      "call": "Sună acum",
+      "callAria": "Sună echipa PetroSol"
+    },
+    "stats": [
+      { "k": "1 zi", "v": "Implementare pilot" },
+      { "k": "24/7", "v": "Suport tehnic" },
+      { "k": "1000+", "v": "Integrări realizate" }
+    ]
+  },
+  "contact": {
+    "title": "Hai să discutăm",
+    "subtitle": "Contactează-ne pentru informații suplimentare sau programează o demonstrație.",
+    "direct": {
+      "title": "Contact direct",
+      "location": "București, România",
+      "schedule": "Luni-Vineri, 09:00-18:00"
+    },
+    "alerts": {
+      "success": { "title": "Mulțumim! Mesajul a fost trimis.", "text": "Revenim în cel mai scurt timp." },
+      "error": { "title": "Te rugăm să completezi câmpurile obligatorii.", "text": "Nume, Email, Mesaj și consimțământ." }
+    },
+    "fields": {
+      "name": "Nume",
+      "company": "Companie",
+      "email": "Email",
+      "phone": "Telefon",
+      "topic": "Interesat de",
+      "subject": "Subiect (opțional)",
+      "message": "Mesaj"
+    },
+    "topics": {
+      "placeholder": "Alege...",
+      "retail": "Retail (stații carburanți, HoReCa)",
+      "distribution": "Distribuție carburanți / carduri flotă",
+      "industrial": "Operațiuni industriale",
+      "other": "Alt subiect"
+    },
+    "consent": "Sunt de acord ca PetroSol să mă contacteze în legătură cu acest mesaj.",
+    "altContact": { "before": "sau scrie-ne la" },
+    "buttons": { "send": "Trimite mesaj", "sending": "Trimitere..." }
+  }
+}

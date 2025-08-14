@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "About Petrosol",
+    "text": "Since 2005 we bring innovation and excellence to digitising the oil & gas industry. Together with partners we turn complexity into efficiency."
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "text": "Founded in 2005 in Bucharest, Petrosol delivers end‑to‑end IT solutions for the oil industry and adjacent sectors. We combine deep technical expertise and domain knowledge to optimise operations and increase productivity."
+  },
+  "missionVision": {
+    "title": "Mission & Vision",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Provide innovative, secure and scalable software that transforms how energy companies operate."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "Be the reference partner for oil & gas digitalisation in Central and Eastern Europe."
+    }
+  },
+  "values": {
+    "title": "Our Values",
+    "items": [
+      { "icon": "innovation", "title": "Innovation", "text": "Continuous R&D investment in relevant technologies." },
+      { "icon": "integrity", "title": "Integrity", "text": "Highest ethical and quality standards." },
+      { "icon": "customer", "title": "Customer focus", "text": "Partnership mindset and dedicated support." },
+      { "icon": "excellence", "title": "Operational excellence", "text": "On‑time, on‑budget delivery with measurable outcomes." }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "text": "50+ professionals (developers, system engineers, data analysts, consultants) deliver efficient implementations and ongoing support."
+  },
+  "why": {
+    "title": "Why choose us?",
+    "cards": [
+      { "icon": "custom", "title": "Custom solutions", "text": "We adapt the platform to specific processes and goals." },
+      { "icon": "fast", "title": "Fast implementation", "text": "Modular architecture for short time‑to‑value." },
+      { "icon": "support", "title": "24/7 support", "text": "Proactive monitoring and intervention." },
+      { "icon": "expertise", "title": "Proven expertise", "text": "100+ successfully delivered projects." }
+    ]
+  }
+}

@@ -4,20 +4,20 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { useLocation, NavLink } from "react-router-dom";
 import { Home, Info, MessageCircle, Wrench, Phone } from "lucide-react";
-
-// Define your routes here (adjust as needed)
-const routes = [
-  { title: "Acasă", href: "/", Icon: Home },
-  { title: "Soluții", href: "/solutions", Icon: Wrench },
-  { title: "Despre noi", href: "/about", Icon: Info },
-  { title: "Contact", href: "/contact", Icon: MessageCircle },
-  // Removed "Parteneriate" and replaced with call button below
-];
+import { useTranslation } from "react-i18next";
 
 const HamburgerMenu = () => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
   const location = useLocation();
+  const { t } = useTranslation();
+
+  const routes = [
+    { label: t("mobileNav.home"), href: "/", Icon: Home },
+    { label: t("mobileNav.solutions"), href: "/solutions", Icon: Wrench },
+    { label: t("mobileNav.about"), href: "/about", Icon: Info },
+    { label: t("mobileNav.contact"), href: "/contact", Icon: MessageCircle },
+  ];
 
   useClickAway(ref, () => setOpen(false));
 
@@ -49,7 +49,7 @@ const HamburgerMenu = () => {
                       damping: 20,
                       delay: 0.05 + idx / 12,
                     }}
-                    key={route.title}
+                    key={route.href}
                     className={`w-full rounded-xl ${
                       isActive
                         ? "bg-blue-100 border border-blue-300"
@@ -65,13 +65,12 @@ const HamburgerMenu = () => {
                       }`}
                       to={route.href}
                     >
-                      <span>{route.title}</span>
+                      <span>{route.label}</span>
                       <Icon className="text-xl" />
                     </NavLink>
                   </motion.li>
                 );
               })}
-              {/* Call button */}
               <motion.li
                 initial={{ scale: 0.95, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -89,8 +88,9 @@ const HamburgerMenu = () => {
                   href="tel:+40 738 100 020"
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 w-full p-4 rounded-xl text-base font-medium text-green-700 hover:bg-green-100 transition-colors"
+                  aria-label={t("mobileNav.call")}
                 >
-                  <span>Sună acum</span>
+                  <span>{t("mobileNav.call")}</span>
                   <Phone className="text-xl" />
                 </a>
               </motion.li>

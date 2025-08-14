@@ -1,0 +1,183 @@
+{
+  "webSolution": {
+    "title": "Advanced Web-Based Solution for the Petroleum Industry",
+    "description": "PetroSol Web provides an intuitive, scalable interface allowing you to manage distribution, inventory and sales operations in real time directly from the browser.",
+    "features": [
+      "24/7 access from any device – desktop, tablet or mobile",
+      "Instant real-time updates of stocks and sales",
+      "Custom dashboard and detailed reports",
+      "Secure integration with existing ERP and POS systems"
+    ],
+    "imageAlt": "PetroSol Web Interface"
+  },
+  "valueProp": {
+    "header": {
+      "title": { "before": "Why", "brand": "PetroSol" },
+      "subtitle": "Software platforms for fuel distribution, retail and industrial operations – with measurable results, not just promises."
+    },
+    "pillars": [
+      {
+        "title": "Efficient operations",
+        "desc": "We automate key processes (inventory, traceability, pricing, reporting) for shorter times and fewer errors."
+      },
+      {
+        "title": "Compliance & security",
+        "desc": "We adhere to ISO 9001 and ISO/IEC 27001 standards plus fiscal / ANAF best practices for stress-free audits."
+      },
+      {
+        "title": "Fast integration",
+        "desc": "We connect fiscal cash registers, pumps, ERP/accounting, e-Invoice and third‑party systems – without downtime."
+      }
+    ],
+    "metrics": [
+      { "kpi": "800+", "label": "stations running on PetroSol" },
+      { "kpi": "100+", "label": "e-Invoice integrations" },
+      { "kpi": "50+", "label": "companies using fleet cards" },
+      { "kpi": "24/7", "label": "dedicated technical support" }
+    ],
+    "certifications": {
+      "title": "Certifications & standards",
+      "items": [
+        "ISO 9001:2015 — Quality management",
+        "ISO/IEC 27001 — Information security"
+      ]
+    },
+    "caseStudy": {
+      "title": "Case study: fuel station network",
+      "text": "Deployment in 26 locations with centralized synchronization, e-Invoice and daily reporting. 35% reduction in month‑end closing time.",
+      "linkLabel": "Read the study →",
+      "linkHref": "/case-studies/fuel-station-network"
+    },
+    "demo": {
+      "title": "Want to see the product in action?",
+      "text": "Schedule a 30‑minute demo with the PetroSol team.",
+      "cta": "Schedule a demo"
+    }
+  },
+  "solutions": {
+    "heading": "Solutions For:",
+    "cta": "Learn more",
+    "ctaAria": "View solution: {{title}}",
+    "list": [
+      {
+        "title": "Fuel Distribution Stations",
+        "desc": "We optimize the operation of fueling stations.",
+        "accent": "from-blue-600 to-blue-500",
+        "path": "service-stations"
+      },
+      {
+        "title": "Unattended (Self-Service)",
+        "desc": "Efficient self-service systems.",
+        "accent": "from-amber-600 to-amber-500",
+        "path": "unattended"
+      },
+      {
+        "title": "Industrial CRT",
+        "desc": "Robust CRT technology.",
+        "accent": "from-pink-600 to-pink-500",
+        "path": "industrial-crt"
+      },
+      {
+        "title": "Retail & Restaurants",
+        "desc": "Integrated systems for retail and HoReCa.",
+        "accent": "from-green-600 to-green-500",
+        "path": "traditional-retail"
+      },
+      {
+        "title": "Payments",
+        "desc": "Secure payment platforms.",
+        "accent": "from-purple-600 to-purple-500",
+        "path": "payment"
+      },
+      {
+        "title": "Custom Solutions",
+        "desc": "Tailored applications for your business.",
+        "accent": "from-indigo-600 to-indigo-500",
+        "path": "custom-solutions"
+      },
+      {
+        "title": "AI",
+        "desc": "Advanced analytics and intelligent automation.",
+        "accent": "from-cyan-600 to-cyan-500",
+        "path": "ai"
+      }
+    ]
+  },
+  "customers": {
+    "heading": { "before": "Our", "highlight": "Customers" },
+    "subheading": "We proudly support a diverse portfolio of leading companies, helping them optimise operations and achieve success through our innovative solutions and software.",
+    "badge": "Trust & scale",
+    "ctaBlock": {
+      "title": "Join the companies that optimised their operations with PetroSol",
+      "text": "Talk to us and quickly find out if our solutions fit your workflows.",
+      "button": "Contact us",
+      "buttonAria": "Contact PetroSol"
+    },
+    "metrics": [
+      { "label": "Stations", "value": "800+" },
+      { "label": "Integrations", "value": "1000+" },
+      { "label": "Support", "value": "24/7" }
+    ],
+    "response": {
+      "time": "We reply within",
+      "value": "under 1 business day"
+    }
+  },
+  "optimization": {
+    "badge": "Operations optimisation",
+    "title": "Optimise your operations today",
+    "intro": "Fast implementation, safe scaling and continuous support. We eliminate manual steps, unify data and give you real‑time visibility for better decisions.",
+    "imageAlt": "Operational PetroSol dashboard for optimisation",
+    "features": [
+      { "icon": "support", "label": "24/7 Support", "desc": "Technical team available at all times." },
+      { "icon": "customize", "label": "Customization", "desc": "Rapid adaptation to your processes." },
+      { "icon": "training", "label": "Unlimited training", "desc": "Ongoing onboarding for the team." },
+      { "icon": "fastImpl", "label": "Fast implementation", "desc": "Go‑live in 1 day for key modules." },
+      { "icon": "growth", "label": "Profit growth", "desc": "Margin & stock rotation optimisation." },
+      { "icon": "time", "label": "Reduced operating time", "desc": "Automation of repetitive tasks." }
+    ],
+    "cta": {
+      "contact": "Contact us",
+      "contactAria": "Contact PetroSol",
+      "call": "Call now",
+      "callAria": "Call the PetroSol team"
+    },
+    "stats": [
+      { "k": "1 day", "v": "Pilot implementation" },
+      { "k": "24/7", "v": "Technical support" },
+      { "k": "1000+", "v": "Integrations delivered" }
+    ]
+  },
+  "contact": {
+    "title": "Let’s talk",
+    "subtitle": "Contact us for more information or schedule a demo.",
+    "direct": {
+      "title": "Direct contact",
+      "location": "Bucharest, Romania",
+      "schedule": "Mon-Fri, 09:00-18:00"
+    },
+    "alerts": {
+      "success": { "title": "Thank you! Message sent.", "text": "We will get back shortly." },
+      "error": { "title": "Please complete the required fields.", "text": "Name, Email, Message and consent." }
+    },
+    "fields": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "topic": "Interested in",
+      "subject": "Subject (optional)",
+      "message": "Message"
+    },
+    "topics": {
+      "placeholder": "Choose...",
+      "retail": "Retail (fuel stations, HoReCa)",
+      "distribution": "Fuel distribution / fleet cards",
+      "industrial": "Industrial operations",
+      "other": "Other topic"
+    },
+    "consent": "I agree to be contacted by PetroSol regarding this message.",
+    "altContact": { "before": "or email us at" },
+    "buttons": { "send": "Send message", "sending": "Sending..." }
+  }
+}

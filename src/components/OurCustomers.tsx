@@ -1,37 +1,34 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import BentoLogo from '../assets/images/ourclients/Bento_logo.svg';
 import ForteLogo from '../assets/images/ourclients/Forte_logo.png';
 import OscarLogo from '../assets/images/ourclients/Oscar_Downstream_logo.svg.png';
 import RompetrolLogo from '../assets/images/ourclients/Rompetrol_logo.png';
-import OctanoLogo from '../assets/images/ourclients/Octano_logo.png'
+import OctanoLogo from '../assets/images/ourclients/Octano_logo.png';
 
-const customers = [ 
+const customers = [
   { name: 'Bento', logo: BentoLogo },
   { name: 'Forte', logo: ForteLogo },
   { name: 'Oscar Downstream', logo: OscarLogo },
   { name: 'Rompetrol', logo: RompetrolLogo },
-  { name: 'Octano', logo: OctanoLogo }, 
+  { name: 'Octano', logo: OctanoLogo },
 ];
 
-const OurCustomers: React.FC = () => { 
+const OurCustomers: React.FC = () => {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+  const { t } = useTranslation("homepage", { keyPrefix: "customers" });
+  const metrics = t("metrics", { returnObjects: true }) as { label: string; value: string }[];
 
   useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      return;
-    }
-
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const scroller = scrollerRef.current;
     if (!scroller) return;
-    
     scroller.setAttribute('data-animated', 'true');
-
     const scrollerInner = scroller.querySelector('.scroller__inner');
     if (!scrollerInner) return;
-
     const scrollerContent = Array.from(scrollerInner.children);
     scrollerContent.forEach(item => {
       const duplicatedItem = item.cloneNode(true) as HTMLElement;
@@ -41,14 +38,14 @@ const OurCustomers: React.FC = () => {
   }, []);
 
   return (
-    <section id="our-customers" className="py-20 bg-white"> 
+    <section id="our-customers" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-            Clienții <span className="text-blue-600">Noștri</span>
+            {t("heading.before")} <span className="text-blue-600">{t("heading.highlight")}</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Suntem mândri să sprijinim un portofoliu divers de companii de top, ajutându-le să își optimizeze operațiunile și să atingă succesul prin soluțiile și software-ul nostru inovator.
+            {t("subheading")}
           </p>
         </div>
 
@@ -73,27 +70,21 @@ const OurCustomers: React.FC = () => {
             <div className="relative p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               <div className="max-w-xl">
                 <div className="inline-flex items-center gap-2 rounded-full bg-blue-50 text-blue-700 px-3 py-1 text-xs font-medium ring-1 ring-blue-100">
-                  Încredere & scalare
+                  {t("badge")}
                 </div>
                 <h3 className="mt-3 text-xl md:text-2xl font-semibold text-gray-900">
-                  Alătură-te companiilor care și-au optimizat operațiunile cu PetroSol
+                  {t("ctaBlock.title")}
                 </h3>
                 <p className="mt-2 text-gray-600 leading-relaxed">
-                  Vorbește cu noi și află rapid dacă soluțiile noastre se potrivesc fluxurilor tale.
+                  {t("ctaBlock.text")}
                 </p>
                 <dl className="mt-4 grid grid-cols-3 gap-4 text-sm">
-                  <div>
-                    <dt className="text-gray-500">Stații</dt>
-                    <dd className="font-semibold text-gray-900">800+</dd>
-                  </div>
-                  <div>
-                    <dt className="text-gray-500">Integrări</dt>
-                    <dd className="font-semibold text-gray-900">1000+</dd>
-                  </div>
-                  <div>
-                    <dt className="text-gray-500">Suport</dt>
-                    <dd className="font-semibold text-gray-900">24/7</dd>
-                  </div>
+                  {metrics.map(m => (
+                    <div key={m.label}>
+                      <dt className="text-gray-500">{m.label}</dt>
+                      <dd className="font-semibold text-gray-900">{m.value}</dd>
+                    </div>
+                  ))}
                 </dl>
               </div>
               <div className="flex flex-col items-start md:items-end gap-4">
@@ -101,12 +92,13 @@ const OurCustomers: React.FC = () => {
                   type="button"
                   onClick={() => navigate('/contact')}
                   className="group inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 text-white px-6 py-3 font-medium hover:bg-blue-700 transition shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  aria-label={t("ctaBlock.buttonAria")}
                 >
-                  Contactează-ne
+                  {t("ctaBlock.button")}
                   <span className="transition-transform group-hover:translate-x-0.5">→</span>
                 </button>
                 <p className="text-xs text-gray-500">
-                  Răspundem în <span className="font-medium text-gray-700">sub 1 zi lucrătoare</span>.
+                  {t("response.time")} <span className="font-medium text-gray-700">{t("response.value")}</span>.
                 </p>
               </div>
             </div>
@@ -122,22 +114,17 @@ const OurCustomers: React.FC = () => {
           -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
           mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
         }
-
         .scroller__inner {
           display: flex;
           gap: 2rem;
           width: max-content;
           flex-wrap: nowrap;
         }
-
         .scroller[data-animated="true"] .scroller__inner {
           animation: scroll 40s linear infinite;
         }
-        
         @keyframes scroll {
-          to {
-            transform: translate(calc(-50% - 1rem));
-          }
+          to { transform: translate(calc(-50% - 1rem)); }
         }
       `}</style>
     </section>

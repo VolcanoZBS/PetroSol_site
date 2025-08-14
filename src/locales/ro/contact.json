@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Contact",
+    "text": "Spune-ne pe scurt ce dorești: categorie soluție, volum, integrare sau provocare actuală. Răspundem în mai puțin de o zi lucrătoare."
+  },
+  "info": {
+    "title": "Date de contact",
+    "address": {
+      "title": "Adresă",
+      "line1": "Bulevardul Primăverii 51",
+      "line2": "București, România"
+    },
+    "phone": {
+      "title": "Telefon"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "hours": {
+      "title": "Program",
+      "value": "Luni - Vineri: 09:00 - 17:00"
+    },
+    "stats": [
+      { "label": "Stații", "value": "800+" },
+      { "label": "Integrări", "value": "100+" },
+      { "label": "Suport", "value": "24/7" }
+    ]
+  },
+  "form": {
+    "title": "Trimite un mesaj",
+    "fields": {
+      "name": "Nume",
+      "company": "Companie",
+      "email": "Email",
+      "phone": "Telefon",
+      "subject": "Subiect",
+      "message": "Mesaj"
+    },
+    "consentText": "Sunt de acord cu prelucrarea datelor pentru a primi răspuns și informații comerciale.",
+    "submit": {
+      "default": "Trimite mesajul",
+      "sending": "Se trimite...",
+      "sent": "Trimis",
+      "success": "Mesaj trimis. Mulțumim!",
+      "error": "Eroare la trimitere. Reîncearcă."
+    }
+  },
+  "validation": {
+    "required": "Câmp obligatoriu.",
+    "email": "Email invalid.",
+    "consent": "Necesită acord."
+  },
+  "note": "Notă: Emailurile sunt trimise prin EmailJS (client-side) - adaugă cheile în .env și decomentează codul.",
+  "map": {
+    "title": "PetroSol București"
+  }
+}
