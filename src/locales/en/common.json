@@ -39,7 +39,7 @@
     "toggleLocaleAria": "Change language ({{lang}})",
     "solutions": [
       { "name": "Fuel Service Stations", "path": "service-stations", "description": "We optimise fuel station operations." },
-      { "name": "Self Service", "path": "unattended", "description": "Efficient self‑service systems." },
+      { "name": "Self Service", "path": "unattended", "description": "Efficient self-service systems." },
       { "name": "Industrial CRT", "path": "industrial-crt", "description": "Robust CRT technology." },
       { "name": "Traditional Retail", "path": "traditional-retail", "description": "Fast, familiar interfaces." },
       { "name": "Payments", "path": "payment", "description": "Secure payment platforms." },

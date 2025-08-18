@@ -5,7 +5,7 @@
   },
   "whoWeAre": {
     "title": "Who We Are",
-    "text": "Founded in 2005 in Bucharest, Petrosol delivers end‑to‑end IT solutions for the oil industry and adjacent sectors. We combine deep technical expertise and domain knowledge to optimise operations and increase productivity."
+    "text": "Founded in 2005 in Bucharest, Petrosol delivers end-to-end IT solutions for the oil industry and adjacent sectors. We combine deep technical expertise and domain knowledge to optimise operations and increase productivity."
   },
   "missionVision": {
     "title": "Mission & Vision",
@@ -24,7 +24,7 @@
       { "icon": "innovation", "title": "Innovation", "text": "Continuous R&D investment in relevant technologies." },
       { "icon": "integrity", "title": "Integrity", "text": "Highest ethical and quality standards." },
       { "icon": "customer", "title": "Customer focus", "text": "Partnership mindset and dedicated support." },
-      { "icon": "excellence", "title": "Operational excellence", "text": "On‑time, on‑budget delivery with measurable outcomes." }
+      { "icon": "excellence", "title": "Operational excellence", "text": "On-time, on-budget delivery with measurable outcomes." }
     ]
   },
   "team": {
@@ -35,7 +35,7 @@
     "title": "Why choose us?",
     "cards": [
       { "icon": "custom", "title": "Custom solutions", "text": "We adapt the platform to specific processes and goals." },
-      { "icon": "fast", "title": "Fast implementation", "text": "Modular architecture for short time‑to‑value." },
+      { "icon": "fast", "title": "Fast implementation", "text": "Modular architecture for short time-to-value." },
       { "icon": "support", "title": "24/7 support", "text": "Proactive monitoring and intervention." },
       { "icon": "expertise", "title": "Proven expertise", "text": "100+ successfully delivered projects." }
     ]

@@ -67,13 +67,13 @@ export default function ValueProposition() {
 
           {/* Certifications */}
           <div className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-4 h-32">
-            <div className="h-full flex items-center gap-4">
+            <div className="flex items-center gap-4">
               {/* Badges */}
-              <div className="flex gap-3 shrink-0">
-                <div className="w-14 h-14 flex items-center justify-center overflow-hidden">
+              <div className="w-14 flex flex-col gap-2 shrink-0 items-center">
+                <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
                   <img src={isoImage} alt="ISO 9001:2015" className="block max-w-full max-h-full object-contain" />
                 </div>
-                <div className="w-14 h-14 flex items-center justify-center overflow-hidden">
+                <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
                   <img src={iso27001Image} alt="ISO 27001" className="block max-w-full max-h-full object-contain" />
                 </div>
               </div>
@@ -87,7 +87,7 @@ export default function ValueProposition() {
                   {certItems.map((c, i) => (
                     <li key={i} className="flex items-center gap-2">
                       <span className={`w-1.5 h-1.5 rounded-full ${i === 0 ? 'bg-blue-600' : 'bg-green-600'}`}></span>
-                      <span className="truncate">{c}</span>
+                      <span>{c}</span>
                     </li>
                   ))}
                 </ul>
@@ -127,7 +127,6 @@ export default function ValueProposition() {
                 className="flex w-[95%] mx-auto items-center justify-center px-6 md:px-8 py-3 rounded-xl bg-white text-gray-900 font-semibold hover:bg-gray-100 transition shadow-sm"
               >
                 <span>{t("demo.cta")}</span>
-                <span className="ml-2">-&gt;</span>
               </a>
             </div>
           </div>

@@ -26,7 +26,7 @@
       },
       {
         "title": "Fast integration",
-        "desc": "We connect fiscal cash registers, pumps, ERP/accounting, e-Invoice and third‑party systems – without downtime."
+        "desc": "We connect fiscal cash registers, pumps, ERP/accounting, e-Invoice and third-party systems – without downtime."
       }
     ],
     "metrics": [
@@ -44,14 +44,14 @@
     },
     "caseStudy": {
       "title": "Case study: fuel station network",
-      "text": "Deployment in 26 locations with centralized synchronization, e-Invoice and daily reporting. 35% reduction in month‑end closing time.",
+      "text": "Deployment in 26 locations with centralized synchronization, e-Invoice and daily reporting. 35% reduction in month-end closing time.",
       "linkLabel": "Read the study →",
       "linkHref": "/case-studies/fuel-station-network"
     },
     "demo": {
       "title": "Want to see the product in action?",
-      "text": "Schedule a 30‑minute demo with the PetroSol team.",
-      "cta": "Schedule a demo"
+      "text": "Schedule a 30-minute demo with the PetroSol team.",
+      "cta": "Schedule a demo →"
     }
   },
   "solutions": {
@@ -62,43 +62,36 @@
       {
         "title": "Fuel Distribution Stations",
         "desc": "We optimize the operation of fueling stations.",
-        "accent": "from-blue-600 to-blue-500",
         "path": "service-stations"
       },
       {
         "title": "Unattended (Self-Service)",
         "desc": "Efficient self-service systems.",
-        "accent": "from-amber-600 to-amber-500",
         "path": "unattended"
       },
       {
         "title": "Industrial CRT",
         "desc": "Robust CRT technology.",
-        "accent": "from-pink-600 to-pink-500",
         "path": "industrial-crt"
       },
       {
         "title": "Retail & Restaurants",
         "desc": "Integrated systems for retail and HoReCa.",
-        "accent": "from-green-600 to-green-500",
         "path": "traditional-retail"
       },
       {
         "title": "Payments",
         "desc": "Secure payment platforms.",
-        "accent": "from-purple-600 to-purple-500",
         "path": "payment"
       },
       {
         "title": "Custom Solutions",
         "desc": "Tailored applications for your business.",
-        "accent": "from-indigo-600 to-indigo-500",
         "path": "custom-solutions"
       },
       {
         "title": "AI",
         "desc": "Advanced analytics and intelligent automation.",
-        "accent": "from-cyan-600 to-cyan-500",
         "path": "ai"
       }
     ]
@@ -120,19 +113,19 @@
     ],
     "response": {
       "time": "We reply within",
-      "value": "under 1 business day"
+      "value": "48 hours"
     }
   },
   "optimization": {
     "badge": "Operations optimisation",
     "title": "Optimise your operations today",
-    "intro": "Fast implementation, safe scaling and continuous support. We eliminate manual steps, unify data and give you real‑time visibility for better decisions.",
+    "intro": "Fast implementation, safe scaling and continuous support. We eliminate manual steps, unify data and give you real-time visibility for better decisions.",
     "imageAlt": "Operational PetroSol dashboard for optimisation",
     "features": [
       { "icon": "support", "label": "24/7 Support", "desc": "Technical team available at all times." },
       { "icon": "customize", "label": "Customization", "desc": "Rapid adaptation to your processes." },
       { "icon": "training", "label": "Unlimited training", "desc": "Ongoing onboarding for the team." },
-      { "icon": "fastImpl", "label": "Fast implementation", "desc": "Go‑live in 1 day for key modules." },
+      { "icon": "fastImpl", "label": "Fast implementation", "desc": "Go-live in 1 day for key modules." },
       { "icon": "growth", "label": "Profit growth", "desc": "Margin & stock rotation optimisation." },
       { "icon": "time", "label": "Reduced operating time", "desc": "Automation of repetitive tasks." }
     ],

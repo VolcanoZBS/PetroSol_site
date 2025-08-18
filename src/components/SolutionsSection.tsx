@@ -5,9 +5,19 @@ import { useTranslation } from "react-i18next";
 type Solution = {
   title: string;
   desc: string;
-  accent: string; // tailwind gradient classes
   path: string;
+  // accent?: string; // no longer needed (can delete in JSON)
 };
+
+const GRADIENTS = [
+  "from-blue-600 to-blue-500",
+  "from-amber-600 to-amber-500",
+  "from-emerald-600 to-emerald-500",
+  "from-rose-600 to-rose-500",
+  "from-purple-600 to-purple-500",
+  "from-indigo-600 to-indigo-500",
+  "from-cyan-600 to-cyan-500"
+];
 
 const SolutionsSection: React.FC = () => {
   const { t } = useTranslation("homepage", { keyPrefix: "solutions" });
@@ -35,7 +45,7 @@ const SolutionsSection: React.FC = () => {
                 className={`group block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-2xl ${spanMd} ${spanLg}`}
               >
                 <article className="h-full bg-white rounded-2xl ring-1 ring-gray-200 shadow-sm p-6 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
-                  <div className={`h-1.5 w-14 rounded-full bg-gradient-to-r ${s.accent} mb-4`} />
+                  <div className={`h-1.5 w-14 rounded-full bg-gradient-to-r ${GRADIENTS[idx % GRADIENTS.length]} mb-4`} />
                   <h3 className="text-xl font-semibold text-gray-900">{s.title}</h3>
                   <p className="mt-2 text-gray-600">{s.desc}</p>
                   <div className="mt-4 inline-flex items-center text-blue-600 font-medium">

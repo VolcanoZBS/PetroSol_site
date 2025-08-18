@@ -65,7 +65,7 @@
     "hero": {
       "badge": "Soluție Avansată",
       "title": "Inteligență Artificială & Analiză Predictivă",
-      "text": "Modele ML pentru prognoză consum, optimizare stoc, detectare anomalii și recomandări operaționale. Colectăm, curățăm și consolidăm date multi‑sursă pentru insight-uri acționabile și decizii rapide.",
+      "text": "Modele ML pentru prognoză consum, optimizare stoc, detectare anomalii și recomandări operaționale. Colectăm, curățăm și consolidăm date multi-sursă pentru insight-uri acționabile și decizii rapide.",
       "primaryCta": "Programează un demo",
       "secondaryCta": "Sună acum",
       "imageAlt": "Analiză avansată susținută de AI"
@@ -263,13 +263,13 @@
     "capabilities": {
       "eyebrow": "Capabilități",
       "title": "Ce oferă platforma de plăți",
-      "subtitle": "Unificare metode, flux sigur, vizibilitate financiară end‑to‑end.",
+      "subtitle": "Unificare metode, flux sigur, vizibilitate financiară end-to-end.",
       "features": [
-        { "icon": "multiMethod", "title": "Acceptare multi‑metodă", "desc": "EMV chip, contactless, NFC, card flotă, card cadou, split tender." },
+        { "icon": "multiMethod", "title": "Acceptare multi-metodă", "desc": "EMV chip, contactless, NFC, card flotă, card cadou, split tender." },
         { "icon": "wallets", "title": "Portofele digitale", "desc": "Apple Pay, Google Pay și tokenizare sigură pentru plăți rapide." },
-        { "icon": "recurring", "title": "Recurente & pre‑autorizări", "desc": "Reținere sumă, confirmare livrare, captură finală și abonamente." },
+        { "icon": "recurring", "title": "Recurente & pre-autorizări", "desc": "Reținere sumă, confirmare livrare, captură finală și abonamente." },
         { "icon": "reconciliation", "title": "Reconciliere automată", "desc": "Aliniază tranzacțiile terminal, procesator și contabilitate." },
-        { "icon": "multiLocation", "title": "Multi‑locație", "desc": "Politici centralizate, rapoarte consolidate și excepții marcate." },
+        { "icon": "multiLocation", "title": "Multi-locație", "desc": "Politici centralizate, rapoarte consolidate și excepții marcate." },
         { "icon": "scaling", "title": "Scalare rapidă", "desc": "Onboarding rapid pentru noi locații și evoluție metode viitoare." }
       ]
     },
@@ -309,7 +309,7 @@
       "eyebrow": "Conformitate",
       "title": "Securitate & protecție",
       "blocks": [
-        { "icon": "pci", "title": "PCI & criptare", "desc": "Criptare end‑to‑end și proceduri aliniate PCI DSS." },
+        { "icon": "pci", "title": "PCI & criptare", "desc": "Criptare end-to-end și proceduri aliniate PCI DSS." },
         { "icon": "fraud", "title": "Fraud & risc", "desc": "Reguli velocity, liste albe/negre și scoring tranzacții." },
         { "icon": "uptime", "title": "Uptime & monitorizare", "desc": "Health checks, alerte proactive și fallback offline." }
       ]
@@ -337,7 +337,7 @@
       "features": [
         { "icon": "stock", "title": "Gestionare stoc & ATG", "desc": "Sincronizare niveluri, temperatură, densitate; reconcilieri și alerte pierderi." },
         { "icon": "pump", "title": "Monitorizare pompe", "desc": "Status duze, debit, tranzacții live, blocare/deblocare și jurnal evenimente." },
-        { "icon": "pos", "title": "Integrare POS & plăți", "desc": "Card flotă, EMV/contactless, bon fiscal, e‑Factura și split tender." },
+        { "icon": "pos", "title": "Integrare POS & plăți", "desc": "Card flotă, EMV/contactless, bon fiscal, e-Factura și split tender." },
         { "icon": "reporting", "title": "Raportare & KPI", "desc": "Marjă, litri vs. vânzare, shrinkage, viteză tranzacție, comparativ locații." },
         { "icon": "staff", "title": "Management personal", "desc": "Ture, permisiuni rol, audit acțiuni critice, productivitate / oră." },
         { "icon": "compliance", "title": "Conformitate & securitate", "desc": "Controale acces, log, backup, criptare date și politici automate." }
@@ -426,13 +426,13 @@
     "capabilities": {
       "eyebrow": "Capabilități",
       "title": "Ce include soluția",
-      "subtitle": "Fluxuri operaționale integrate pentru magazine, restaurante și rețele multi‑site.",
+      "subtitle": "Fluxuri operaționale integrate pentru magazine, restaurante și rețele multi-site.",
       "features": [
         { "icon": "pos", "title": "POS stabil & rapid", "desc": "Vânzare asistată, mod touch, produse compuse, anulări controlate și sincronizare offline." },
         { "icon": "stock", "title": "Gestiune stocuri", "desc": "Rețete, transferuri, inventare, loturi, ajustări și trasabilitate pe locații." },
         { "icon": "customer", "title": "Profil clienți", "desc": "Istoric tranzacții, preferințe și segmentare pentru campanii relevante." },
-        { "icon": "promo", "title": "Promo & fidelizare", "desc": "Discounturi condiționate, puncte, cupoane, card fidelitate și campanii multi‑site." },
-        { "icon": "fiscal", "title": "Fiscal & conform", "desc": "Integrare cu case fiscale, e‑Factura, raportare zilnică și jurnal audit." },
+        { "icon": "promo", "title": "Promo & fidelizare", "desc": "Discounturi condiționate, puncte, cupoane, card fidelitate și campanii multi-site." },
+        { "icon": "fiscal", "title": "Fiscal & conform", "desc": "Integrare cu case fiscale, e-Factura, raportare zilnică și jurnal audit." },
         { "icon": "mobile", "title": "Acces mobil", "desc": "Dashboard KPI, stoc critic, vânzări realtime și notificări manageriale." }
       ]
     },
@@ -461,7 +461,7 @@
         "Tabletă mobilă pentru comenzile din sală"
       ],
       "software": [
-        "Backoffice multi‑unitate & roluri",
+        "Backoffice multi-unitate & roluri",
         "Rețete, cost rețetă și marjă dinamică",
         "Promo engine + card fidelitate",
         "Integrare ERP / contabilitate",
@@ -541,7 +541,7 @@
       "eyebrow": "Siguranță",
       "title": "Securitate & conformitate",
       "points": [
-        "Criptare end‑to‑end a tranzacțiilor și jurnal de audit.",
+        "Criptare end-to-end a tranzacțiilor și jurnal de audit.",
         "Control acces pe roluri, rotație chei/parole, alerte la abateri.",
         "Procese aliniate la ISO 9001 și ISO/IEC 27001."
       ]
